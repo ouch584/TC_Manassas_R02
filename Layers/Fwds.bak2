@@ -1,0 +1,292 @@
+<ObjectLayer>
+ <Layer Name="Fwds" GUID="{FF5D08DC-4DA2-4BF6-99A4-EDD592E93447}" Hidden="0" Frozen="1" External="1" Exportable="1">
+  <LayerObjects>
+   <Object Type="Group" Layer="Fwds" Id="{82432D74-FBB5-4225-9D01-372926187281}" Name="Fwd2" Pos="2614.625,2720.75,2" Rotate="1,-0,0,-1.7484555e-007" ColorRGB="65280" MergeGeom="0" Opened="0">
+    <Objects>
+     <Object Type="Entity" Layer="Fwds" Id="{8441986E-DD67-445E-8A11-1D1B4532B1A4}" Name="MG_AMS66" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="-11.625,0.875,12.010002" Rotate="4.3711395e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MG_AMS">
+      <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="0" bPickable="0" soclasses_SmartObjectClass="" bUsable="0">
+       <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+      </Properties>
+     </Object>
+     <Object Type="Brush" Layer="Fwds" Id="{85177A47-E104-4D83-A999-56455D3AB7C1}" Name="concrete_bridgea_pillar29" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="72.375,20.875,-3" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/architecture/bridges/concrete_bridgea/concrete_bridgea_pillar.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+     <Object Type="Brush" Layer="Fwds" Id="{C261DEC0-B1EB-44E4-B346-3FA3F3F667F8}" Name="concrete_bridgea_pillar30" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="-11.625,0.875,-3" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/architecture/bridges/concrete_bridgea/concrete_bridgea_pillar.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{EF85407D-88E5-40F7-8353-D064E4604846}" Name="ReactorPrefab31" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="-72.75,-20,0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{FDF62E43-6724-4AD4-8AE5-4AEDCF1D0ED0}" PrefabName="MWll_Assets.base.MiniReactor"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{00ADBB32-1521-4B31-BAD2-3A06E302F856}" Name="ReactorPrefab32" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="-58.75,-20,0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{FDF62E43-6724-4AD4-8AE5-4AEDCF1D0ED0}" PrefabName="MWll_Assets.base.MiniReactor"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{E2D25A30-3EC4-4A0E-8DAF-E73CCE620D6E}" Name="ReactorPrefab33" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="-44.75,-20,0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{FDF62E43-6724-4AD4-8AE5-4AEDCF1D0ED0}" PrefabName="MWll_Assets.base.MiniReactor"/>
+     <Object Type="Entity" Layer="Fwds" Id="{FE1437B0-7773-4CE2-A764-434FA36D3DCD}" Name="Turret_Sentinel8" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="72.375,20.875,12" Rotate="4.3711395e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Turret_Sentinel">
+      <Properties objBarrel="" objBase="" objDestroyed="" bExplosionOnly="1" HitPoints="0" initialSetup="" objModel="" bMounted="0" bPhysics="0" soclasses_SmartObjectClass="" species="0" teamName="">
+       <GunTurret AbandonTargetTime="0.5" AimTolerance="20" BurstPause="0" BurstTime="0" bEnabled="1" bExplosionOnly="0" bFindCloaked="1" LightFOV="0" MaxPitch="45" MGRange="50" MinPitch="-45" Prediction="1" RocketRange="50" bSearching="0" bSearchOnly="0" SearchSpeed="0.5" bSurveillance="1" SweepTime="0" TACCheckTime="0.2" TACDetectRange="300" TurnSpeed="1.5" UpdateTargetTime="2" bVehiclesOnly="0" YawRange="360"/>
+       <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+      </Properties>
+     </Object>
+     <Object Type="Shape" Layer="Fwds" Id="{4F00D764-1E9A-46F9-95C0-FCB85877C946}" Name="ForwardCaptureZone4" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="73.625,-31.375,2" Rotate="-4.3711388e-008,0,0,1" ColorRGB="7062843" Width="0" Height="16" AreaId="0" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+      <Points>
+       <Point Pos="0,0,0"/>
+       <Point Pos="0,73,0"/>
+       <Point Pos="94,71,0"/>
+       <Point Pos="96,1,0"/>
+      </Points>
+      <Entities>
+       <Entity Id="{675BB32B-9BB7-4E96-AA54-E2A739A258A7}"/>
+      </Entities>
+     </Object>
+     <Object Type="Entity" Layer="Fwds" Id="{675BB32B-9BB7-4E96-AA54-E2A739A258A7}" Name="CapturePoint7" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="29.625,31.625,30" Rotate="-4.3711395e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="CapturePoint">
+      <Properties CaptureRequirement="1" ClanWeight="1" DimX="0" DimY="0" DimZ="0" IsWeight="1" sStartingTeam="" sType="factory"/>
+      <EntityLinks>
+       <Link TargetId="{FE1437B0-7773-4CE2-A764-434FA36D3DCD}" Name="capture"/>
+       <Link TargetId="{8441986E-DD67-445E-8A11-1D1B4532B1A4}" Name="capture"/>
+       <Link TargetId="{B201AB7B-352E-406F-838D-4D2146EA7E33}" Name="capture"/>
+       <Link TargetId="{EEF6CD1E-6E2C-4DC4-B332-1FF00AB24EC4}" Name="capture"/>
+       <Link TargetId="{3C1AD46D-6EB7-4E78-B3E2-A562D4BB7449}" Name="capture"/>
+       <Link TargetId="{54C3DC5B-E8A3-4FC5-B94B-85A498406ACB}" Name="capture"/>
+       <Link TargetId="{50ED698B-A02F-4ECF-B8F8-D718675437C7}" Name="capture"/>
+       <Link TargetId="{2A43FB1B-CB14-4277-A9F3-242FC249B399}" Name="capture"/>
+      </EntityLinks>
+     </Object>
+     <Object Type="Group" Layer="Fwds" Id="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Name="Fac2" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="36.625,32.875,7.25" Rotate="-4.3711395e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
+      <Objects>
+       <Object Type="Shape" Layer="Fwds" Id="{2053B4D7-56AE-4D14-8554-3FD3CBCC724F}" Name="buyzone25" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="21.540039,-19.801514,-6.700531" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16763904" Width="0" Height="25" AreaId="2" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+        <Points>
+         <Point Pos="0,0,0"/>
+         <Point Pos="-31.289917,-0.30010986,0"/>
+         <Point Pos="-31.154175,-29.418396,0"/>
+         <Point Pos="-15.926392,-29.540039,0.45052338"/>
+         <Point Pos="-15.926392,-44.540039,0.45052338"/>
+         <Point Pos="-6.9263916,-44.540039,0.45052338"/>
+         <Point Pos="-6.9263916,-29.540039,0.45052338"/>
+         <Point Pos="0.045410156,-29.664001,0.27710724"/>
+        </Points>
+        <Entities>
+         <Entity Id="{2A43FB1B-CB14-4277-A9F3-242FC249B399}"/>
+        </Entities>
+       </Object>
+       <Object Type="Shape" Layer="Fwds" Id="{147AC9CC-2D2A-4F01-B4D3-39436BEE1812}" Name="TC_VehicleTrigger01_Factory_Area62" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-4.550293,-9.6376953,-11.75" Rotate="-4.5695582e-008,0,0,1" ColorRGB="16763904" Width="0" Height="25" AreaId="61" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+        <Points>
+         <Point Pos="0,0,0"/>
+         <Point Pos="-19,0.125,0"/>
+         <Point Pos="-19,-17.875,0"/>
+         <Point Pos="-0.25,-18.125,0"/>
+        </Points>
+       </Object>
+       <Object Type="Brush" Layer="Fwds" Id="{9CD71D5D-F5BF-4258-9613-9620453EDFF9}" Name="camera11" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-7.6520996,13.740234,14.646423" Rotate="4.3711388e-008,0,0,1" Scale="1.5,1.5,1.5" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\Architecture\Critical_Structures\MechHangar\camera.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+       <Object Type="Brush" Layer="Fwds" Id="{876E5F4A-E306-4837-8452-62BC9FAE964B}" Name="interior6" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="6.4588623,-3.065918,-5.7345848" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\Architecture\Critical_Structures\mech_hanger_single\interior.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+       <Object Type="Brush" Layer="Fwds" Id="{B3C8C8AB-F937-42A8-AAF2-A59EE2613E45}" Name="mech_hanger_single6" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="6.4587402,-3.065918,-5.7345848" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\Architecture\Critical_Structures\mech_hanger_single\mech_hanger_single.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+       <Object Type="Brush" Layer="Fwds" Id="{4AE43981-E28B-4495-B44D-F1F6C262918C}" Name="camera12" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="18.53064,13.740234,14.646423" Rotate="4.3711388e-008,0,0,1" Scale="1.5,1.5,1.5" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\Architecture\Critical_Structures\MechHangar\camera.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+       <Object Type="Decal" Layer="Fwds" Id="{D32819A9-7542-43E2-A6E7-890C09F314D3}" Name="Decal3564" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="6.3457031,1.8530273,17.724731" Rotate="0.99901021,0.043617807,-0.00038065101,0.0087182857" Scale="6.8051782,6.8051782,6.8051772" ColorRGB="16744319" Material="Textures/Decals/emblems/fed_suns" ProjectionType="1" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+       <Object Type="Entity" Layer="Fwds" Id="{B201AB7B-352E-406F-838D-4D2146EA7E33}" Name="TCFlag24" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="20.365356,14.737549,5.5803413" Rotate="-0.0087264674,0,0,0.99996191" Scale="0.80000001,0.80000001,0.80000001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{EEF6CD1E-6E2C-4DC4-B332-1FF00AB24EC4}" Name="TCFlag25" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-7.5545654,14.737549,5.5803413" Rotate="-0.0087264674,0,0,0.99996191" Scale="0.80000001,0.80000001,0.80000001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{3C1AD46D-6EB7-4E78-B3E2-A562D4BB7449}" Name="TCFlag26" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="20.365356,14.737549,5.5803413" Rotate="-0.0087264674,0,0,0.99996191" Scale="0.80000001,0.80000001,0.80000001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{54C3DC5B-E8A3-4FC5-B94B-85A498406ACB}" Name="TCFlag27" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-7.5545654,14.737549,5.5803413" Rotate="-0.0087264674,0,0,0.99996191" Scale="0.80000001,0.80000001,0.80000001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{2A43FB1B-CB14-4277-A9F3-242FC249B399}" Name="TC_Factory_Forward1" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="5.4041748,-3.0316162,-5.4234009" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Factory">
+        <Properties basePowerLevel="0" buyAreaId="2" bDisableRepairs="1" factoryClass="" bGeneratePower="0" bIsForwardBase="1" objModel="" nPowerIndex="1" bPowerStorage="0" nQueueSize="5" bRepairAerosInBuyZone="0" serviceAreaId="2" bShowOnMinimap="1" szName="" teamName="tan" Vehicles="">
+         <buyOptions bAerospaceCL="0" bAerospaceIS="0" bAmmo="1" bArtilleryCL="1" bArtilleryIS="1" bAssaultMechsCL="1" bAssaultMechsIS="1" bHeavyMechsCL="1" bHeavyMechsIS="1" bHovercraftsCL="1" bHovercraftsIS="1" bLightMechsCL="1" bLightMechsIS="1" bMediumMechsCL="1" bMediumMechsIS="1" bSvtolsCL="0" bSvtolsIS="0" bTanksCL="1" bTanksIS="1" bVtolsCL="0" bVtolsIS="0" bWeapons="1"/>
+         <Slot1 AreaId="0" CloseAnimation="" bEnabled="1" OpenAnimation="" SpawnHelperName="spawn" bUseEntitySpawnHelper="1" VehicleAreaId="61"/>
+         <Slot2 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn02" bUseEntitySpawnHelper="0" VehicleAreaId="62"/>
+         <Slot3 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn03" bUseEntitySpawnHelper="0" VehicleAreaId="63"/>
+         <Slot4 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn04" bUseEntitySpawnHelper="0" VehicleAreaId="64"/>
+         <Slot5 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn05" bUseEntitySpawnHelper="0" VehicleAreaId="65"/>
+         <Slot6 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn06" bUseEntitySpawnHelper="0" VehicleAreaId="66"/>
+         <Slot7 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn07" bUseEntitySpawnHelper="0" VehicleAreaId="67"/>
+         <Slot8 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn08" bUseEntitySpawnHelper="0" VehicleAreaId="68"/>
+         <Sounds sndBusy="" sndIdle="" sndSlotClose="sounds/environment:doors:metal_gate_stop" sndSlotOpen="sounds/environment:doors:metal_gate_open" sndSlotReady="sounds/environment:random_oneshots_industrial:oneshot_gas_release" sndSlotStart="sounds/environment:doors:damaged_carrier_door_open"/>
+        </Properties>
+        <EntityLinks>
+         <Link TargetId="{5273219A-009E-4AE4-8A9D-4A8137B7F1F1}" Name="spawn"/>
+        </EntityLinks>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{50ED698B-A02F-4ECF-B8F8-D718675437C7}" Name="SpawnGroup4" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="5.4041748,-3.0316162,0.75" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnGroup">
+        <Properties equip_AdditionalEquipmentPack="" bDefault="0" bEnabled="1" MinimapIcon="" objModel="" teamName="tan"/>
+        <EntityLinks>
+         <Link TargetId="{0CBF3456-247C-4508-A7F4-59239C8B5BC2}" Name="spawnpoint"/>
+         <Link TargetId="{D3D7106A-891A-4791-857F-C9E81CEFC4F3}" Name="spawnpoint"/>
+         <Link TargetId="{F9A7633F-DBFF-4AFC-B8C5-4D5C9C16EF3F}" Name="spawnpoint"/>
+         <Link TargetId="{BDBE18FD-BF85-4B81-969C-347BD9F49997}" Name="spawnpoint"/>
+         <Link TargetId="{B6A1406B-6300-483F-B8E6-91BA4349CB46}" Name="spawnpoint"/>
+         <Link TargetId="{B92CF330-5433-45B2-B199-9D6B2F6E8F25}" Name="spawnpoint"/>
+        </EntityLinks>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{B92CF330-5433-45B2-B199-9D6B2F6E8F25}" Name="FwdFacSpawnPoint19" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-15.875,-10.875,-5" Rotate="0.95371699,0,0,-0.30070579" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{B6A1406B-6300-483F-B8E6-91BA4349CB46}" Name="FwdFacSpawnPoint20" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-14.25,-4.625,-5" Rotate="-0.34202018,0,0,0.93969262" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{BDBE18FD-BF85-4B81-969C-347BD9F49997}" Name="FwdFacSpawnPoint21" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-12.75,-10.625,-5" Rotate="0.95371699,0,0,-0.30070579" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{F9A7633F-DBFF-4AFC-B8C5-4D5C9C16EF3F}" Name="FwdFacSpawnPoint22" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-20.75,-9.125,-5" Rotate="0.88701081,0,0,-0.46174863" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{D3D7106A-891A-4791-857F-C9E81CEFC4F3}" Name="FwdFacSpawnPoint23" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-19.25,-5.375,-5" Rotate="0.60876137,0,0,-0.79335344" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{0CBF3456-247C-4508-A7F4-59239C8B5BC2}" Name="FwdFacSpawnPoint24" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-11,-4.5,-5" Rotate="-0.21643965,0,0,0.97629601" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{5273219A-009E-4AE4-8A9D-4A8137B7F1F1}" Name="spawn002" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="5.5,-3,-4" Rotate="1,0,0,8.7422769e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="BasicEntity">
+        <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+         <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bRigidBody="1"/>
+        </Properties>
+       </Object>
+      </Objects>
+     </Object>
+     <Object Type="Prefab" Layer="Fwds" Id="{F9ADBA3D-E5B7-4C26-A220-9F42790850DF}" Name="BeaconPrefab37" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="-19.875,-29.5,0.5" Rotate="-4.3711388e-008,0,0,1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{9BD72BD5-AF2A-4329-AACF-728E57CEB690}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_nodebris"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{3C71887C-D341-4FB2-8974-5F356F16EB99}" Name="BeaconPrefab38" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="-18,-99.375,0.5" Rotate="-4.3711388e-008,0,0,1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{9BD72BD5-AF2A-4329-AACF-728E57CEB690}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_nodebris"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{D86EBB75-9D0C-4476-BA0A-4479BF009DE2}" Name="BeaconPrefab39" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="75.875,-101.375,0.5" Rotate="-4.3711388e-008,0,0,1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{9BD72BD5-AF2A-4329-AACF-728E57CEB690}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_nodebris"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{9475BD68-FC51-4C94-9B04-13EB977CA6B4}" Name="BeaconPrefab40" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="76,-28.5,0.5" Rotate="-4.3711388e-008,0,0,1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{9BD72BD5-AF2A-4329-AACF-728E57CEB690}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_nodebris"/>
+    </Objects>
+   </Object>
+   <Object Type="Group" Layer="Fwds" Id="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Name="Fwd1" Pos="1389.625,1559.75,49" Rotate="1.3113416e-007,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
+    <Objects>
+     <Object Type="Entity" Layer="Fwds" Id="{ACEFA339-353D-4997-BDB0-2C5E89520D23}" Name="MG_AMS65" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="-11.625,0.875,12.010002" Rotate="4.3711395e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MG_AMS">
+      <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="0" bPickable="0" soclasses_SmartObjectClass="" bUsable="0">
+       <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+      </Properties>
+     </Object>
+     <Object Type="Brush" Layer="Fwds" Id="{AA4EB1FD-0142-422E-A11E-0ACC9D88D802}" Name="concrete_bridgea_pillar19" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="72.375,20.875,-3" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/architecture/bridges/concrete_bridgea/concrete_bridgea_pillar.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+     <Object Type="Brush" Layer="Fwds" Id="{300980AC-0524-410B-AC4B-16913B38072A}" Name="concrete_bridgea_pillar20" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="-11.625,0.875,-3" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/architecture/bridges/concrete_bridgea/concrete_bridgea_pillar.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{44E68D40-4F80-49CB-B8EB-6B4D5AC32963}" Name="ReactorPrefab28" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="-72.75,-20,0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{FDF62E43-6724-4AD4-8AE5-4AEDCF1D0ED0}" PrefabName="MWll_Assets.base.MiniReactor"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{C5CC4539-57E6-4CFF-8FC7-DEEBF850C2D4}" Name="ReactorPrefab29" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="-58.75,-20,0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{FDF62E43-6724-4AD4-8AE5-4AEDCF1D0ED0}" PrefabName="MWll_Assets.base.MiniReactor"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{95B16C55-8E66-4940-B306-A0053F0678F2}" Name="ReactorPrefab30" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="-44.75,-20,0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{FDF62E43-6724-4AD4-8AE5-4AEDCF1D0ED0}" PrefabName="MWll_Assets.base.MiniReactor"/>
+     <Object Type="Entity" Layer="Fwds" Id="{2287B08C-C821-4878-B23C-1DC85759899F}" Name="Turret_Sentinel7" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="72.375,20.875,12" Rotate="4.3711395e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Turret_Sentinel">
+      <Properties objBarrel="" objBase="" objDestroyed="" bExplosionOnly="1" HitPoints="0" initialSetup="" objModel="" bMounted="0" bPhysics="0" soclasses_SmartObjectClass="" species="0" teamName="">
+       <GunTurret AbandonTargetTime="0.5" AimTolerance="20" BurstPause="0" BurstTime="0" bEnabled="1" bExplosionOnly="0" bFindCloaked="1" LightFOV="0" MaxPitch="45" MGRange="50" MinPitch="-45" Prediction="1" RocketRange="50" bSearching="0" bSearchOnly="0" SearchSpeed="0.5" bSurveillance="1" SweepTime="0" TACCheckTime="0.2" TACDetectRange="300" TurnSpeed="1.5" UpdateTargetTime="2" bVehiclesOnly="0" YawRange="360"/>
+       <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+      </Properties>
+     </Object>
+     <Object Type="Shape" Layer="Fwds" Id="{6B71D3AD-2CA8-4AB0-AFE8-4A39B4DBBE98}" Name="ForwardCaptureZone3" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="73.625,-31.375,2" Rotate="-4.3711388e-008,0,0,1" ColorRGB="7062843" Width="0" Height="16" AreaId="0" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+      <Points>
+       <Point Pos="0,0,0"/>
+       <Point Pos="0,73,0"/>
+       <Point Pos="94,71,0"/>
+       <Point Pos="96,1,0"/>
+      </Points>
+      <Entities>
+       <Entity Id="{0B6C07A7-D3B6-4CB3-985C-47C0E868DB15}"/>
+      </Entities>
+     </Object>
+     <Object Type="Entity" Layer="Fwds" Id="{0B6C07A7-D3B6-4CB3-985C-47C0E868DB15}" Name="CapturePoint5" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="29.625,31.625,30" Rotate="-4.3711388e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="CapturePoint">
+      <Properties CaptureRequirement="1" ClanWeight="1" DimX="0" DimY="0" DimZ="0" IsWeight="1" sStartingTeam="" sType="factory"/>
+      <EntityLinks>
+       <Link TargetId="{2287B08C-C821-4878-B23C-1DC85759899F}" Name="capture"/>
+       <Link TargetId="{ACEFA339-353D-4997-BDB0-2C5E89520D23}" Name="capture"/>
+       <Link TargetId="{B9F55F2E-4012-43F7-B2AB-527F6688AD20}" Name="capture"/>
+       <Link TargetId="{CD404558-E09F-4A68-859F-7EEDC2932E03}" Name="capture"/>
+       <Link TargetId="{B2FCEA62-51E4-47DA-8440-40234B194BB0}" Name="capture"/>
+       <Link TargetId="{964D1A66-782E-4CFA-A1BD-4874A0170CA0}" Name="capture"/>
+       <Link TargetId="{AC19FED2-ABD8-4609-928A-0794BF8912E2}" Name="capture"/>
+       <Link TargetId="{215F2E67-509A-45AF-BB93-7600470525F3}" Name="capture"/>
+      </EntityLinks>
+     </Object>
+     <Object Type="Group" Layer="Fwds" Id="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Name="Fac1" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="36.625,32.875,7.25" Rotate="-4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
+      <Objects>
+       <Object Type="Shape" Layer="Fwds" Id="{0F8F7E01-4039-4406-900C-75718D4B15A6}" Name="buyzone2" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="21.540039,-19.801392,-6.700531" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16763904" Width="0" Height="25" AreaId="2" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+        <Points>
+         <Point Pos="0,0,0"/>
+         <Point Pos="-31.289917,-0.30010986,0"/>
+         <Point Pos="-31.154175,-29.418396,0"/>
+         <Point Pos="-15.926392,-29.540039,0.45052338"/>
+         <Point Pos="-15.926392,-44.540039,0.45052338"/>
+         <Point Pos="-6.9263916,-44.540039,0.45052338"/>
+         <Point Pos="-6.9263916,-29.540039,0.45052338"/>
+         <Point Pos="0.045410156,-29.664001,0.27710724"/>
+        </Points>
+        <Entities>
+         <Entity Id="{CD404558-E09F-4A68-859F-7EEDC2932E03}"/>
+        </Entities>
+       </Object>
+       <Object Type="Shape" Layer="Fwds" Id="{872F80C0-0CC1-40E8-AB34-CD2671AFC86E}" Name="TC_VehicleTrigger01_Factory_Area61" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-4.550293,-9.6376953,-11.75" Rotate="-4.5695582e-008,0,0,1" ColorRGB="16763904" Width="0" Height="25" AreaId="61" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+        <Points>
+         <Point Pos="0,0,0"/>
+         <Point Pos="-19,0.125,0"/>
+         <Point Pos="-19,-17.875,0"/>
+         <Point Pos="-0.25,-18.125,0"/>
+        </Points>
+       </Object>
+       <Object Type="Brush" Layer="Fwds" Id="{93DE5C70-4DA7-40AC-8526-238BE887F850}" Name="camera9" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-7.6520996,13.740234,14.646423" Rotate="4.3711388e-008,0,0,1" Scale="1.5,1.5,1.5" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\Architecture\Critical_Structures\MechHangar\camera.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+       <Object Type="Brush" Layer="Fwds" Id="{ABA76C90-B8F5-44D2-A4A4-D2A827595B5F}" Name="interior5" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="6.4588623,-3.065918,-5.7345848" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\Architecture\Critical_Structures\mech_hanger_single\interior.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+       <Object Type="Brush" Layer="Fwds" Id="{94BA6C51-DBCE-48F0-AD16-D59D0FE56EDD}" Name="mech_hanger_single5" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="6.4588623,-3.065918,-5.7345848" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\Architecture\Critical_Structures\mech_hanger_single\mech_hanger_single.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+       <Object Type="Brush" Layer="Fwds" Id="{40F423A0-276B-4202-AB76-3F4CC1B3EC00}" Name="camera10" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="18.53064,13.740234,14.646423" Rotate="4.3711388e-008,0,0,1" Scale="1.5,1.5,1.5" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\Architecture\Critical_Structures\MechHangar\camera.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+       <Object Type="Decal" Layer="Fwds" Id="{F8D243B8-CBD6-4BD2-B610-2E4C22D05B55}" Name="Decal3547" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="6.3457031,1.8530273,17.724731" Rotate="0.99901021,0.043617807,-0.00038065101,0.0087182857" Scale="6.8051782,6.8051782,6.8051772" ColorRGB="16744319" Material="Textures/Decals/emblems/fed_suns" ProjectionType="1" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+       <Object Type="Entity" Layer="Fwds" Id="{215F2E67-509A-45AF-BB93-7600470525F3}" Name="TCFlag20" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="20.365356,14.737549,5.5803413" Rotate="-0.0087264674,0,0,0.99996191" Scale="0.80000001,0.80000001,0.80000001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{AC19FED2-ABD8-4609-928A-0794BF8912E2}" Name="TCFlag21" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-7.5545654,14.737549,5.5803413" Rotate="-0.0087264674,0,0,0.99996191" Scale="0.80000001,0.80000001,0.80000001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{964D1A66-782E-4CFA-A1BD-4874A0170CA0}" Name="TCFlag22" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="20.365356,14.737549,5.5803413" Rotate="-0.0087264674,0,0,0.99996191" Scale="0.80000001,0.80000001,0.80000001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{B2FCEA62-51E4-47DA-8440-40234B194BB0}" Name="TCFlag23" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-7.5545654,14.737549,5.5803413" Rotate="-0.0087264674,0,0,0.99996191" Scale="0.80000001,0.80000001,0.80000001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{CD404558-E09F-4A68-859F-7EEDC2932E03}" Name="TC_Factory_Forward" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="5.4041748,-3.0316162,-5.4234009" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Factory">
+        <Properties basePowerLevel="0" buyAreaId="2" bDisableRepairs="1" factoryClass="" bGeneratePower="0" bIsForwardBase="1" objModel="" nPowerIndex="1" bPowerStorage="0" nQueueSize="5" bRepairAerosInBuyZone="0" serviceAreaId="2" bShowOnMinimap="1" szName="" teamName="tan" Vehicles="">
+         <buyOptions bAerospaceCL="0" bAerospaceIS="0" bAmmo="1" bArtilleryCL="1" bArtilleryIS="1" bAssaultMechsCL="1" bAssaultMechsIS="1" bHeavyMechsCL="1" bHeavyMechsIS="1" bHovercraftsCL="1" bHovercraftsIS="1" bLightMechsCL="1" bLightMechsIS="1" bMediumMechsCL="1" bMediumMechsIS="1" bSvtolsCL="0" bSvtolsIS="0" bTanksCL="1" bTanksIS="1" bVtolsCL="0" bVtolsIS="0" bWeapons="1"/>
+         <Slot1 AreaId="0" CloseAnimation="" bEnabled="1" OpenAnimation="" SpawnHelperName="spawn" bUseEntitySpawnHelper="1" VehicleAreaId="61"/>
+         <Slot2 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn02" bUseEntitySpawnHelper="0" VehicleAreaId="62"/>
+         <Slot3 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn03" bUseEntitySpawnHelper="0" VehicleAreaId="63"/>
+         <Slot4 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn04" bUseEntitySpawnHelper="0" VehicleAreaId="64"/>
+         <Slot5 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn05" bUseEntitySpawnHelper="0" VehicleAreaId="65"/>
+         <Slot6 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn06" bUseEntitySpawnHelper="0" VehicleAreaId="66"/>
+         <Slot7 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn07" bUseEntitySpawnHelper="0" VehicleAreaId="67"/>
+         <Slot8 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn08" bUseEntitySpawnHelper="0" VehicleAreaId="68"/>
+         <Sounds sndBusy="" sndIdle="" sndSlotClose="sounds/environment:doors:metal_gate_stop" sndSlotOpen="sounds/environment:doors:metal_gate_open" sndSlotReady="sounds/environment:random_oneshots_industrial:oneshot_gas_release" sndSlotStart="sounds/environment:doors:damaged_carrier_door_open"/>
+        </Properties>
+        <EntityLinks>
+         <Link TargetId="{3F9CCDF8-2DB9-429A-81A5-EA5FD3B32DD4}" Name="spawn"/>
+        </EntityLinks>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{B9F55F2E-4012-43F7-B2AB-527F6688AD20}" Name="SpawnGroup3" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="5.4041748,-3.0316162,0.75" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnGroup">
+        <Properties equip_AdditionalEquipmentPack="" bDefault="0" bEnabled="1" MinimapIcon="" objModel="" teamName="tan"/>
+        <EntityLinks>
+         <Link TargetId="{43B5D554-5E5D-431C-8221-48ED262D5DB0}" Name="spawnpoint"/>
+         <Link TargetId="{4BD9AD54-ECE1-4FC3-81AA-3CCD7C7442CF}" Name="spawnpoint"/>
+         <Link TargetId="{ECA29447-9C79-4C4A-AAFC-568C16DD32BB}" Name="spawnpoint"/>
+         <Link TargetId="{7FF4337F-B72E-4178-A18F-C279F62F78C7}" Name="spawnpoint"/>
+         <Link TargetId="{9C3BE3AC-09DC-482A-85BE-DFD9DDE1EC3A}" Name="spawnpoint"/>
+         <Link TargetId="{504A5473-0345-4803-A3DC-FB21B1099043}" Name="spawnpoint"/>
+        </EntityLinks>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{504A5473-0345-4803-A3DC-FB21B1099043}" Name="FwdFacSpawnPoint13" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-15.875,-10.875,-5" Rotate="0.95371699,0,0,-0.30070579" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{9C3BE3AC-09DC-482A-85BE-DFD9DDE1EC3A}" Name="FwdFacSpawnPoint14" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-14.25,-4.625,-5" Rotate="-0.34202018,0,0,0.93969262" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{7FF4337F-B72E-4178-A18F-C279F62F78C7}" Name="FwdFacSpawnPoint15" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-12.75,-10.625,-5" Rotate="0.95371699,0,0,-0.30070579" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{ECA29447-9C79-4C4A-AAFC-568C16DD32BB}" Name="FwdFacSpawnPoint16" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-20.75,-9.125,-5" Rotate="0.88701081,0,0,-0.46174863" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{4BD9AD54-ECE1-4FC3-81AA-3CCD7C7442CF}" Name="FwdFacSpawnPoint17" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-19.25,-5.375,-5" Rotate="0.60876137,0,0,-0.79335344" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{43B5D554-5E5D-431C-8221-48ED262D5DB0}" Name="FwdFacSpawnPoint18" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-11,-4.5,-5" Rotate="-0.21643965,0,0,0.97629601" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpawnPoint">
+        <Properties bEnabled="1" teamName=""/>
+       </Object>
+       <Object Type="Entity" Layer="Fwds" Id="{3F9CCDF8-2DB9-429A-81A5-EA5FD3B32DD4}" Name="spawn001" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="5.5,-3,-4" Rotate="1,0,0,8.7422769e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="BasicEntity">
+        <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+         <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bRigidBody="1"/>
+        </Properties>
+       </Object>
+      </Objects>
+     </Object>
+     <Object Type="Prefab" Layer="Fwds" Id="{5E976DCF-A149-4BCB-BF0B-D8E2BC807547}" Name="BeaconPrefab33" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="-19.875,-29.5,0.5" Rotate="-4.3711388e-008,0,0,1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{9BD72BD5-AF2A-4329-AACF-728E57CEB690}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_nodebris"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{6BAAF5CA-751D-4743-BCEF-CDFD2F47BAF1}" Name="BeaconPrefab34" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="-18,-99.375,0.5" Rotate="-4.3711388e-008,0,0,1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{9BD72BD5-AF2A-4329-AACF-728E57CEB690}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_nodebris"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{FE87C573-E232-4CE6-B214-30F5E894B385}" Name="BeaconPrefab35" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="75.875,-101.375,0.5" Rotate="-4.3711388e-008,0,0,1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{9BD72BD5-AF2A-4329-AACF-728E57CEB690}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_nodebris"/>
+     <Object Type="Prefab" Layer="Fwds" Id="{956699CE-3757-425E-B9E9-982D17BC53A3}" Name="BeaconPrefab36" Parent="{5D06F18B-F758-4A62-B68F-7EB6F4FA1D9A}" Pos="76,-28.5,0.5" Rotate="-4.3711388e-008,0,0,1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{9BD72BD5-AF2A-4329-AACF-728E57CEB690}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_nodebris"/>
+    </Objects>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

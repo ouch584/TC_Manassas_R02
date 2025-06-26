@@ -1,0 +1,91 @@
+<ObjectLayer>
+ <Layer Name="MiniMap" GUID="{BF622D14-0A12-4424-9437-391CAF217391}" Hidden="0" Frozen="1" External="1" Exportable="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="MiniMap" Id="{1AD9C00A-9231-47D4-AD1D-77C5D350B50B}" Name="MiniMap" Pos="1791,2413,365" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="0" ScriptCommand="" species="-1" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="MiniMap" enabled="1" MultiPlayer="ClientOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:AreaTrigger" pos="-350,-320,0" flags="1" EntityGUID="{DAA58C81-BF74-4ADA-8D8A-B3DA13F12FCD}" EntityGUID_64="4ADABF74DAA58C81">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="4" Class="entity:AreaTrigger" pos="-350,-200,0" flags="0" EntityGUID="{095A19B3-1ECF-4812-A0D2-657BF3185542}" EntityGUID_64="48121ECF095A19B3">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="6" Class="entity:AreaTrigger" pos="-350,-80,0" flags="0" EntityGUID="{2F1B79C9-5B68-4B49-B1DC-C3684DDC99AA}" EntityGUID_64="4B495B682F1B79C9">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="7" Class="HUD:RadarTexture" pos="-160,-280,0" flags="0">
+       <Inputs MapID="1"/>
+      </Node>
+      <Node Id="8" Class="HUD:RadarTexture" pos="-160,-160,0" flags="0">
+       <Inputs MapID="2"/>
+      </Node>
+      <Node Id="9" Class="HUD:RadarTexture" pos="-160,-40,0" flags="0">
+       <Inputs MapID="3"/>
+      </Node>
+      <Node Id="10" Name="Mini-Map" Class="_comment" pos="-350,-380,0" flags="0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="7" nodeOut="2" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="4" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="6" portIn="Activate" portOut="Enter" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="AmbientVolume" Layer="MiniMap" Id="{E86FA415-4DAB-4486-9482-D568D9D0F36D}" Name="AmbientVolume2" Pos="3027.25,2151.25,113" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AmbientVolume">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="1" bLogBattleValue="0" soundName="sounds/environment:amb_industrial:amb_electric_room1" OuterRadius="10" bSensitiveToBattle="0"/>
+   </Object>
+   <Object Type="AmbientVolume" Layer="MiniMap" Id="{AC1AB43F-4F45-452D-A0B8-BBA28A4C76BD}" Name="AmbientVolume8" Pos="3027.25,2155.25,115" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AmbientVolume">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="1" bLogBattleValue="0" soundName="sounds/environment:amb_industrial:amb_electric_room1" OuterRadius="10" bSensitiveToBattle="0"/>
+   </Object>
+   <Object Type="Entity" Layer="MiniMap" Id="{DAA58C81-BF74-4ADA-8D8A-B3DA13F12FCD}" Name="MiniMap-Outside" Pos="1795,2413,365" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="0" ScriptCommand="" species="-1" bTriggerOnce="0"/>
+   </Object>
+   <Object Type="Shape" Layer="MiniMap" Id="{DA36E989-3852-4AE0-A204-0F5713AB4FEC}" Name="Shape_Outside" Pos="806,3263,101" ColorRGB="4259584" Width="0" Height="300" AreaId="0" GroupId="0" Priority="1" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="2264,-32,0"/>
+     <Point Pos="2264,-2238,0"/>
+     <Point Pos="71,-2234,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{DAA58C81-BF74-4ADA-8D8A-B3DA13F12FCD}"/>
+     <Entity Id="{0A2620B7-5904-41E6-B60F-7AA6356B8C08}"/>
+     <Entity Id="{187D10D0-1A1D-4B49-AD5C-AE0C0243DD6D}"/>
+    </Entities>
+   </Object>
+   <Object Type="Entity" Layer="MiniMap" Id="{095A19B3-1ECF-4812-A0D2-657BF3185542}" Name="MiniMap-Upper" Pos="1796,2413,365" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="0" ScriptCommand="" species="-1" bTriggerOnce="0"/>
+   </Object>
+   <Object Type="Entity" Layer="MiniMap" Id="{2F1B79C9-5B68-4B49-B1DC-C3684DDC99AA}" Name="MiniMap-Lower" Pos="1797,2413,365" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="0" ScriptCommand="" species="-1" bTriggerOnce="0"/>
+   </Object>
+   <Object Type="Shape" Layer="MiniMap" Id="{B45B2FEA-085A-4201-9C49-456E8BE1552E}" Name="Shape_Upper" Pos="806,3263,39" ColorRGB="2948864" Width="0" Height="60" AreaId="0" GroupId="0" Priority="1" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="2264,-32,0"/>
+     <Point Pos="2264,-2238,0"/>
+     <Point Pos="71,-2234,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{095A19B3-1ECF-4812-A0D2-657BF3185542}"/>
+     <Entity Id="{AC1AB43F-4F45-452D-A0B8-BBA28A4C76BD}"/>
+     <Entity Id="{298CC534-BDD2-4FEA-9904-C45B1BB0E8EE}"/>
+    </Entities>
+   </Object>
+   <Object Type="Shape" Layer="MiniMap" Id="{916E4DF9-BD6B-42E5-903F-BF57CCD826FB}" Name="Shape_Lower" Pos="806,3263,-16" ColorRGB="2948864" Width="0" Height="55" AreaId="0" GroupId="0" Priority="1" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="2264,-32,0"/>
+     <Point Pos="2264,-2238,0"/>
+     <Point Pos="71,-2234,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{2F1B79C9-5B68-4B49-B1DC-C3684DDC99AA}"/>
+     <Entity Id="{E86FA415-4DAB-4486-9482-D568D9D0F36D}"/>
+     <Entity Id="{680B5222-C73B-4258-9FAE-11203F1FB545}"/>
+    </Entities>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
