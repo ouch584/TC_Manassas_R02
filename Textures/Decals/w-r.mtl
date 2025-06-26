@@ -1,0 +1,8 @@
+<Material MtlFlags="4" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.98000002" AlphaTest="0.0099999998">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Textures/Decals/W-R.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

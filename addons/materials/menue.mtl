@@ -1,0 +1,8 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0.26666668,0.26666668,0.26666668" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_Warresst_R8/materials/MENUE.dds" IsTileU="0" IsTileV="0">
+   <TexMod TileU="0.5" OffsetU="0.60000002" OffsetV="0.31"/>
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

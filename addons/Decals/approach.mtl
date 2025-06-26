@@ -1,0 +1,8 @@
+<Material MtlFlags="6" Shader="Illum" GenMask="301989888" SurfaceType="mat_plastic" Diffuse="0.37254903,0.37254903,0.37254903" Specular="0,0,0" Emissive="0.54901963,0.54901963,0.54901963" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_Warresst_R8_R4/decals/Approach_1.dds">
+   <TexMod TileV="8"/>
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,26 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="WithePainted_001_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.51372552,0.51372552,0.51372552" Specular="0.56862748,0.56862748,0.56862748" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/whiterustymetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/whiterustymetal_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Greymetal_material" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_thick" Diffuse="0.30000001,0.30000001,0.30000001" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/greymetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/greymetal_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+</Material>

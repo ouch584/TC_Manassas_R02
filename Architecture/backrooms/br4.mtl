@@ -1,0 +1,57 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_concrete" Diffuse="0.69411767,0.69411767,0.69411767" Specular="0.43921572,0.43921572,0.43921572" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/textures/walls/wall_han_2.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/library/architecture/aircraftcarrier/textures/walls/base_003a_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_concrete.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_rock_dusty" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/TerrazzoVenetianMatteWhite_diffuse.DDS">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/TerrazzoVenetianMatteWhite_nm.DDS">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="128" Shader="Illum" GenMask="268435616" SurfaceType="mat_concrete" Diffuse="0.27450982,0.36078432,0.36862746" Specular="1,1,1" Emissive="0,0,0" Shininess="25" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/multiplayer/prototype_factory/interior/floor_plastic_white.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/aircraftcarrier/textures/walls/base_003ab_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/alientestcentral.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/library/architecture/aircraftcarrier/textures/walls/paintmetaldetail.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="[1] Custom" File="textures/cubemaps/camera_river_cubemap_bright.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.25" FresnelScale="1" FresnelBias="1" AmbientMultiplier="1"/>
+   <MaterialLayers>
+    <Layer Name="Frozenlayerwip" NoDraw="0">
+     <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="1" TintColor="1,1,1"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

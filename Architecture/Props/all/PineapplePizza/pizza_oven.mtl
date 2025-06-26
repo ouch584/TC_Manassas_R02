@@ -1,0 +1,24 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Painted_material" MtlFlags="130" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Architecture/Props/all/PineapplePizza/PizzaOven.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Architecture/Props/all/PineapplePizza/PizzaOvenSPEC.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Glass_material" MtlFlags="2176" Shader="Glass" GenMask="268436480" SurfaceType="mat_glass" Diffuse="1,1,1" Specular="0.70588237,0.70588237,0.70588237" Emissive="0,0,0" Shininess="1" Opacity="0.32699999">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/airfield/terminal_building/terminal_window.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams TintAmount="1" RefrBumpScale="0.1" ReflectionAmount="0.25" FresnelBias="0.2" FresnelScale="1" BackLightScale="1" FilterColor="1,1,1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

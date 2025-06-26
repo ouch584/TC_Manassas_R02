@@ -1,0 +1,19 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Pizza_material" MtlFlags="128" Shader="Humanskin" GenMask="268435458" SurfaceType="mat_rubber" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/TSA/TSA_Dropships2020/Architecture/Props/all/PineapplePizza/hawaiian-pizza-pineapple.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/TSA/TSA_Dropships2020/Architecture/Props/all/PineapplePizza/hawaiian-pizza-pineapple_SPEC.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/TSA/TSA_Dropships2020/Architecture/Props/all/PineapplePizza/hawaiian-pizza-pineapple_NMAP.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SubsurfaceStrenght="1" RimStrenght="0.30000001" SpecularStrenght="0.1" DiffusionAmount="0.60000002" RimPow="1" Melanin="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

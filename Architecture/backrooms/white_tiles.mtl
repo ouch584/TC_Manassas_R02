@@ -1,0 +1,14 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435472" SurfaceType="mat_concrete" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.42352945,0.42352945,0.42352945" Emissive="0,0,0" Shininess="46" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/library/architecture/two_storey_restaurant/harbor_control_center_toilette_tile.tif">
+   <TexMod TileU="0" TileV="0"/>
+  </Texture>
+  <Texture Map="Specular" File="objects/library/architecture/two_storey_restaurant/harbor_control_center_toilette_tile.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="objects/library/architecture/two_storey_restaurant/harbor_control_center_toilette_tile_ddn.tif" Amount="50">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

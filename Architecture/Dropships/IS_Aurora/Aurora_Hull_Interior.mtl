@@ -1,0 +1,19 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Body_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_interior.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_interior_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tsa/tsa_dropships2020/Architecture/Dropships/IS_Aurora/Aurora_Interior_NMAP.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,14 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435472" SurfaceType="mat_rock_dusty" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/BR_Dark_Green_diffuse.DDS">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/TerrazzoVenetianMatteWhite_diffuse.DDS">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/TerrazzoVenetianMatteWhite_nm.DDS" Amount="50">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,8 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989888" SurfaceType="" Diffuse="0.094117656,0.094117656,0.094117656" Specular="0,0,0" Emissive="0,0,0" Opacity="0.99000001" AlphaTest="0.0099999998">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/decals/grafitti/left.dds" IsTileU="0" IsTileV="0">
+   <TexMod TileV="4"/>
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

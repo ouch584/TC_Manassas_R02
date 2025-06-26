@@ -1,0 +1,29 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="_1___Default_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Architecture/Props/all/PineapplePizza/Map #83582.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="www_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Architecture/Props/all/PineapplePizza/Map #83594.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="_3___Default_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_fruit" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Architecture/Props/all/PineapplePizza/Map #83591.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

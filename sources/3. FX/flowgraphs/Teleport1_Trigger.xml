@@ -1,0 +1,26 @@
+<Graph Description="" Group="logic" enabled="1" MultiPlayer="ClientOnly">
+ <Nodes>
+  <Node Id="1" Class="Sound:PlaySoundEvent" pos="10,30,0" flags="0">
+   <Inputs entityId="0" Enable="1" sound_SoundEvent="sounds/alien:trooper:jump_charge" Voice="0" Once="0"/>
+  </Node>
+  <Node Id="2" Class="Entity:BeamEntity" pos="150,-200,0" flags="0" InHideMask="31" OutHideMask="1" GraphEntity="0">
+   <Inputs entityId="0" Position="0,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+  </Node>
+  <Node Id="3" Class="Entity:GetPos" pos="10,-90,0" flags="0" InHideMask="3" OutHideMask="63" EntityGUID="{87C7AE37-A92B-4F24-837A-844FE4BCD0B6}" EntityGUID_64="4F24A92B87C7AE37">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="5" Class="entity:ProximityTrigger" pos="-200,-190,0" flags="1" GraphEntity="0">
+   <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+  </Node>
+  <Node Id="6" Name="TELEPORT + SOUND" Class="_comment" pos="-200,-220,0" flags="0"/>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="3" portIn="Position" portOut="Pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="3" portIn="Rotation" portOut="Rotate" enabled="1"/>
+  <Edge nodeIn="1" nodeOut="5" portIn="PlayTrigger" portOut="Sender" enabled="1"/>
+  <Edge nodeIn="1" nodeOut="5" portIn="entityId" portOut="Sender" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="Beam" portOut="Sender" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="entityId" portOut="Sender" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="5" portIn="Get" portOut="Sender" enabled="1"/>
+ </Edges>
+</Graph>

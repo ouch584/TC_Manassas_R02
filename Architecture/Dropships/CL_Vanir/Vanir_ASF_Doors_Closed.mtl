@@ -1,0 +1,13 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="ASF_Doors_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tsa/tsa_dropships2020/Architecture/Dropships/CL_Vanir/Vanir_ASF_Doors.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

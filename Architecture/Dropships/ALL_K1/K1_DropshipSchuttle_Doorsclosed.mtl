@@ -1,0 +1,37 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="CleanMetal_001_material" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_thick" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.56862748,0.56862748,0.56862748" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/cleanmetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/cleanmetal_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="BlueMetal_001_material" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_thick" Diffuse="0.24313727,0.32549021,0.34509805" Specular="0.56862748,0.56862748,0.56862748" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/metalbare_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/metalbare_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="Threadplate_001_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/treadplate_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/mwll_textures/base/treadplate_norm.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+</Material>

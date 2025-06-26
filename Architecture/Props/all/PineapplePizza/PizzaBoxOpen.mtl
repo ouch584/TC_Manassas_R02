@@ -1,0 +1,13 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Pizzabox_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_cardboard" Diffuse="0.64705884,0.63921571,0.52941179" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Architecture/Props/all/PineapplePizza/pizzabox.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

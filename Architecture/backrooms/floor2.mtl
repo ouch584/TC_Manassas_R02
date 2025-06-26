@@ -1,0 +1,11 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/GrayCarpet_diffuse.DDS">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/GrayCarpet_nm.DDS">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

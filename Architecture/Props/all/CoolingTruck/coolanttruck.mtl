@@ -1,0 +1,46 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Base_material" MtlFlags="128" Shader="Illum" GenMask="268435488" SurfaceType="mat_metal_thick" Diffuse="0.89019614,0.85490203,0.85490203" Specular="0.46274513,0.46274513,0.46274513" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/greymetal_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Dark_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.26666668,0.26666668,0.26666668" Specular="0.38823533,0.38823533,0.38823533" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/baremetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/baremetal_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Accent_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.55686277,0.6156863,0.65490198" Specular="1.0352942,1.0352942,1.0352942" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/alien_level_texture/base_metal/metal_a_08.dds">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/alien_level_texture/base_metal/metal_a_08_spec.dds">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Light_material" MtlFlags="128" Shader="Illum" GenMask="268436480" SurfaceType="mat_glass_unbreakable" Diffuse="0.87450987,0.98039222,0.99607849" Specular="1.4039216,1.4039216,1.4039216" Emissive="0.9333334,0.90196085,1" Shininess="2" Opacity="1" GlowAmount="8">
+   <Textures />
+   <PublicParams AmbientMultiplier="1" DetailDiffuseTilingX="10" DetailDiffuseTilingY="10" DetailDiffuseBlendFactor="0.5"/>
+  </Material>
+  <Material Name="RedLight_material" MtlFlags="128" Shader="Illum" GenMask="268436480" SurfaceType="mat_glass_unbreakable" Diffuse="0.59607846,0.10588236,0.10588236" Specular="1.6549021,0.4784314,0.89411771" Emissive="0.85098046,0.25098041,0.29803923" Shininess="2" Opacity="1" GlowAmount="3">
+   <Textures />
+   <PublicParams AmbientMultiplier="1" DetailDiffuseTilingX="10" DetailDiffuseTilingY="10" DetailDiffuseBlendFactor="0.5"/>
+  </Material>
+  <Material Name="DrakGlass_material" MtlFlags="128" Shader="Illum" GenMask="268440832" SurfaceType="mat_glass_unbreakable" Diffuse="0.36862746,0.36862746,0.36862746" Specular="2.1176472,2.1176472,2.1176472" Emissive="0,0,0" Shininess="8" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1" DetailDiffuseTilingX="10" DetailDiffuseTilingY="10" DetailDiffuseBlendFactor="0.5" SpecularMaskFactor="0.5"/>
+  </Material>
+ </SubMaterials>
+</Material>

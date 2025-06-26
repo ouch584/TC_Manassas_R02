@@ -1,0 +1,38 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_cardboard" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.42352945,0.42352945,0.42352945" Emissive="0,0,0" Shininess="46" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/two_storey_restaurant/harbor_control_center_toilette_tile.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/library/architecture/two_storey_restaurant/harbor_control_center_toilette_tile.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/two_storey_restaurant/harbor_control_center_toilette_tile_ddn.tif" Amount="50">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_rock_dusty" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/BR_Dark_Green_diffuse.DDS">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/GrayCarpet_diffuse.DDS">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/textures/rooms/GrayCarpet_nm.DDS" Amount="50">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

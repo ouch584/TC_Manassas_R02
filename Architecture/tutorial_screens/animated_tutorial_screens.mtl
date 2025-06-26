@@ -1,0 +1,89 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="128" Shader="Illum" GenMask="268451856" SurfaceType="" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.74117649,0.74117649,0.74117649" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/MWLL_Textures/Base/baremetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Textures/MWLL_Textures/Base/baremetal_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="Textures/MWLL_Textures/Detail/paintedmetal_detail_1.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" DetailBumpTillingU="6.1799998" DetailBumpTillingV="6.1799998" DetailBumpScale="1" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="screen1" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_bulletproof" Diffuse="0.13725491,0.13725491,0.13725491" Specular="0.50588238,0.50588238,0.50588238" Emissive="1,1,1" Shininess="10" Opacity="1" GlowAmount="1.48">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_Warresst_R8/tutorial_screens/repair##01_06count(3.5).dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/library/architecture/aircraftcarrier/textures/screens/line.dds">
+     <TexMod TexMod_VOscillatorType="2" TexMod_VOscillatorRate="3.0699999" TexMod_VOscillatorAmplitude="1.4299999"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="screen2" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_bulletproof" Diffuse="0.13725491,0.13725491,0.13725491" Specular="0.50588238,0.50588238,0.50588238" Emissive="1,1,1" Shininess="10" Opacity="1" GlowAmount="1.48">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_Warresst_R8/tutorial_screens/crouched##01_07count(2.5).dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/library/architecture/aircraftcarrier/textures/screens/line.dds">
+     <TexMod TexMod_VOscillatorType="2" TexMod_VOscillatorRate="3.0699999" TexMod_VOscillatorAmplitude="1.4299999"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="screen3" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_bulletproof" Diffuse="0.13725491,0.13725491,0.13725491" Specular="0.50588238,0.50588238,0.50588238" Emissive="1,1,1" Shininess="10" Opacity="1" GlowAmount="1.48">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_Warresst_R8/tutorial_screens/gropuing##01_06count(2.5).dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/library/architecture/aircraftcarrier/textures/screens/line.dds">
+     <TexMod TexMod_VOscillatorType="2" TexMod_VOscillatorRate="3.0699999" TexMod_VOscillatorAmplitude="1.4299999"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="screen4" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_bulletproof" Diffuse="0.13725491,0.13725491,0.13725491" Specular="0.50588238,0.50588238,0.50588238" Emissive="1,1,1" Shininess="10" Opacity="1" GlowAmount="1.48">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_Warresst_R8/tutorial_screens/entering##01_05count(2.5).dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/library/architecture/aircraftcarrier/textures/screens/line.dds">
+     <TexMod TexMod_VOscillatorType="2" TexMod_VOscillatorRate="3.0699999" TexMod_VOscillatorAmplitude="1.4299999"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="screen5" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_bulletproof" Diffuse="0.13725491,0.13725491,0.13725491" Specular="0.50588238,0.50588238,0.50588238" Emissive="1,1,1" Shininess="10" Opacity="1" GlowAmount="1.48">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_Warresst_R8/tutorial_screens/buying##01_08count(2.5).dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/library/architecture/aircraftcarrier/textures/screens/line.dds">
+     <TexMod TexMod_VOscillatorType="2" TexMod_VOscillatorRate="3.0699999" TexMod_VOscillatorAmplitude="1.4299999"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="screen6" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_bulletproof" Diffuse="0.13725491,0.13725491,0.13725491" Specular="0.50588238,0.50588238,0.50588238" Emissive="1,1,1" Shininess="10" Opacity="1" GlowAmount="1.48">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_Warresst_R8/tutorial_screens/deathbills##01_04count(3.5).dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/library/architecture/aircraftcarrier/textures/screens/line.dds">
+     <TexMod TexMod_VOscillatorType="2" TexMod_VOscillatorRate="3.0699999" TexMod_VOscillatorAmplitude="1.4299999"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

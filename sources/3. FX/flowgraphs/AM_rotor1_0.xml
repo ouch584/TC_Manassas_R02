@@ -1,0 +1,18 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="3" Class="Start" pos="-320,50,0" flags="0">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="5" Class="Movement:RotateEntity" pos="30,30,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Speed="1500,0,0" Paused="0" Ref="1"/>
+  </Node>
+  <Node Id="6" Class="Logic:NOT" pos="-110,50,0" flags="0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="10" Name="RigidBodyEx Rotation" Class="_comment" pos="30,0,0" flags="0"/>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="6" nodeOut="3" portIn="in" portOut="output" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="6" portIn="Paused" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

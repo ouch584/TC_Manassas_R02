@@ -1,0 +1,19 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_cargobays_merchantile_shell.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_cargobays_merchantile_shell_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tsa/tsa_dropships2020/Architecture/Dropships/IS_Aurora/Aurora_CargoBays_Merchantile_shell_NMAP.dds" Amount="50">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

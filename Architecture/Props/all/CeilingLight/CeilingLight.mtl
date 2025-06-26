@@ -1,0 +1,24 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Gray_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_plastic_nopierce" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Library/Architecture/Aircraftcarrier/128gray.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="glass_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_plastic_nopierce" Diffuse="0.64705884,0.59215689,0.4666667" Specular="0,0,0" Emissive="0.57647061,0.57647061,0.27843139" Shininess="10" Opacity="1" GlowAmount="1.15">
+   <Textures>
+    <Texture Map="Diffuse" File="Levels/Multiplayer/TC/TC_Manassas_R01/Architecture/Props/all/CeilingLight/Light.DDS">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/library/architecture/airfield/terminal/floor_refl.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

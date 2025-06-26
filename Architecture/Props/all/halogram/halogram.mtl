@@ -1,0 +1,49 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="yellowmetal_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="blackplastic_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="plak_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="metalpanel_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="greymetal_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="baremetal_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="felt_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="metalgratedoor_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="greyfoam_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="screensbuttons_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="tiles_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="mesh_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="halogram_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="greenmetal_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+</Material>

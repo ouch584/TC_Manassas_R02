@@ -1,0 +1,14 @@
+<Material MtlFlags="4" Shader="Illum" GenMask="302015504" SurfaceType="mat_plastic" Diffuse="0.37254903,0.37254903,0.37254903" Specular="0,0,0" Emissive="0.54901963,0.54901963,0.54901963" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Textures/decals/Auth_1.dds" IsTileU="0" IsTileV="0">
+   <TexMod TileV="8" OffsetV="-3.5"/>
+  </Texture>
+  <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Textures/decals/Auth_1.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Opacity" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Textures/decals/Auth_1.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1" DetailBumpTillingU="1" DetailBumpTillingV="1" DetailBumpScale="1" DetailBlendAmount="0" DetailDiffuseTilingX="10" DetailDiffuseTilingY="10" DetailDiffuseBlendFactor="0.5"/>
+</Material>

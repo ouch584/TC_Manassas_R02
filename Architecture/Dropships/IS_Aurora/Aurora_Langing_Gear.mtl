@@ -1,0 +1,33 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Landing_Gear_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_landinggear.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_landinggear_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Landing_Gear_001_material" MtlFlags="128" Shader="Metal" GenMask="268435472" SurfaceType="mat_metal_shell_large" Diffuse="0.58823532,0.58823532,0.58823532" Specular="2,2,2" Emissive="0,0,0" Shininess="32" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_cargobays_merchantile_floor.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_cargobays_merchantile_floor_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tsa/tsa_dropships2020/Architecture/Dropships/IS_Aurora/Aurora_CargoBays_Merchantile_floor_NMAP.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/defaultcm.dds">
+     <TexMod TexMod_TexGenType="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75" ReflectionAmount="0.80000001" FresnelBias="0.2" FresnelScale="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

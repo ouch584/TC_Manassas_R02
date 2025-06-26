@@ -1,0 +1,27 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/library/architecture/multiplayer/prototype_factory/interior/floor_plastic_white.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="objects/library/architecture/aircraftcarrier/textures/walls/base_003ab_ddn.tif" Amount="50">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/alientestcentral.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Detail" File="objects/library/architecture/aircraftcarrier/textures/walls/paintmetaldetail.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="[1] Custom" File="textures/cubemaps/camera_river_cubemap_bright.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers>
+  <Layer Name="Frozenlayerwip" NoDraw="0">
+   <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="1" TintColor="1,1,1"/>
+  </Layer>
+  <Layer />
+  <Layer />
+ </MaterialLayers>
+</Material>

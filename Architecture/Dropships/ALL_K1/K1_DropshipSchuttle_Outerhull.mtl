@@ -1,0 +1,96 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="BareMetal_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/baremetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/baremetal_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="BlackRusted_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.30000001,0.30000001,0.30000001" Specular="0.56862748,0.56862748,0.56862748" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/blackrusted_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/blackrusted_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Greymetal_material" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_thick" Diffuse="0.56862748,0.56862748,0.56862748" Specular="0.56862748,0.56862748,0.56862748" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/greymetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/greymetal_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="Metal_Painty_Rusty_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/textures_library/1024/metal_paintyrusty_dif.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/textures_library/1024/metal_paintyrusty_df__spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/textures_library/1024/metal_paintyrusty_df__nrm.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Metal_35_material" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_thick" Diffuse="0.3137255,0.3137255,0.3137255" Specular="0.3137255,0.3137255,0.3137255" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/textures_library/1024/crysis textures/metal_dirt_rust_35.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/textures_library/1024/crysis textures/metal_dirt_rust_35_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="Metal_A_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.30000001,0.30000001,0.30000001" Specular="0.56862748,0.56862748,0.56862748" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/alien_level_texture/base_metal/metal_a_08.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/alien_level_texture/base_metal/metal_a_08_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="WithePainted_001_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.3137255,0.3137255,0.3137255" Specular="0.3137255,0.3137255,0.3137255" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/whiterustymetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/whiterustymetal_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="YellowRail_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.30000001,0.30000001,0.30000001" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/yellowrail_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/mwll_textures/base/yellowrail_normal.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

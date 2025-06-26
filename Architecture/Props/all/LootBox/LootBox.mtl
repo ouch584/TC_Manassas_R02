@@ -1,0 +1,57 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Locks" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_rough" Diffuse="0.37647063,0.3921569,0.38431376" Specular="0.15294118,0.15294118,0.15294118" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/galvanizedmetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/galvanizedmetal_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="Illuminations" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_sheet" Diffuse="0.21960786,0.84705889,0.86666673" Emissive="0.21960786,0.84705889,0.86666673" Shininess="2" Opacity="1" GlowAmount="2">
+   <Textures>
+    <Texture Map="Decal" File="objects/objects_mwll/weapons/ba_weapons/ba_micro_heavy_beam_laser/textures/micro_heavy_beam_laser_glow_anim.dds">
+     <TexMod TexMod_UOscillatorType="3" TexMod_VOscillatorType="3" TexMod_UOscillatorRate="20" TexMod_VOscillatorRate="20" TexMod_UOscillatorAmplitude="0.5" TexMod_VOscillatorAmplitude="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Frame" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.35294119,0.35294119,0.35294119" Specular="0.098039225,0.098039225,0.098039225" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/groundconcrete_color.dds">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/groundconcrete_spec.dds">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="InnerSphere" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal" Diffuse="0.96862751,0.96862751,0.96862751" Specular="1.4901961,1.4901961,1.4901961" Emissive="0,0,0" Shininess="32" Opacity="1" GlowAmount="0.5">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/baremetal_color.dds">
+     <TexMod TileU="2" TileV="2" TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="0.0625" TexMod_VOscillatorRate="0.0625" TexMod_UOscillatorAmplitude="0.5" TexMod_VOscillatorAmplitude="0.5"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/baremetal_spec.dds">
+     <TexMod TileU="2" TileV="2" TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="0.0625" TexMod_VOscillatorRate="0.0625" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/defaultcm.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="Car_Paint_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.68235296,0.68235296,0.68235296" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/textures_library/128/warningstripes .dds">
+     <TexMod TileU="24" TileV="24"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,14 @@
+<Material MtlFlags="2048" Shader="Watersurface" GenMask="85" SurfaceType="mat_water" Diffuse="0.37647063,0.37647063,0.37647063" Specular="0.54509807,0.60392159,0.40000004" Emissive="0,0,0" Shininess="16.4" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/river_water_color.tif">
+   <TexMod TileU="4" TileV="2.5197501" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.0099999998" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1"/>
+  </Texture>
+  <Texture Map="Normalmap" File="textures/defaults/oceanwaves_ddn.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps_water/fleet08.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams WavesSpeed="2" BumpScale="0.5" BigWavesScale="2" SmallWavesScale="1" ReflectionAmount="1" FresnelBias="0.333" SunShinePow="32" SunMultiplier="1" TransparencyRatio="1" SoftIntersectionFactor="1" FoamIntersectionFactor="0.25" FoamMultiplier="0.75"/>
+</Material>

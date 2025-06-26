@@ -1,0 +1,11 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/mwll_textures/base/concretebunke_dif.dds">
+   <TexMod TileU="12" TileV="12"/>
+  </Texture>
+  <Texture Map="Normalmap" File="textures/mwll_textures/base/concrete2_normals.dds" Amount="50">
+   <TexMod TileU="12" TileV="12"/>
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

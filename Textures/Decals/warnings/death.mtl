@@ -1,0 +1,8 @@
+<Material MtlFlags="6" Shader="Illum" GenMask="301989888" SurfaceType="mat_plastic" Diffuse="0.29019609,0.29019609,0.29019609" Specular="0,0,0" Emissive="0.15686275,0.15686275,0.15686275" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas_R01/Textures/decals/warnings/death.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

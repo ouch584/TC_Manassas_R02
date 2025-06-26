@@ -1,0 +1,4 @@
+The PGM gray map is to be saved as ASCII format
+see convertor.py3 (it is a tool to smoothly scale height of an terrain map before you import it)
+set the paths in the file before you run it (use the present code as an example)
+invoke it with python3 convertor.py3

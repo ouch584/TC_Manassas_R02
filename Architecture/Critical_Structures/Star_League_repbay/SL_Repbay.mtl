@@ -1,0 +1,71 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Blinkenlichten_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_glass_unbreakable" Diffuse="0.4039216,0.5529412,0.90588242" Specular="1.9140338,1.9374709,1.992157" Emissive="0.4039216,0.5529412,0.90588242" Shininess="32" Opacity="1" GlowAmount="6">
+   <Textures>
+    <Texture Map="Decal" File="objects/objects_mwll/weapons/ba_weapons/ba_micro_heavy_beam_laser/textures/micro_heavy_beam_laser_glow_anim.dds">
+     <TexMod TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_RotateType="1" TexMod_URotateRate="0.12084961" TexMod_URotateAmplitude="0.49987793" TexMod_VRotateRate="0.12084961" TexMod_VRotateAmplitude="0.49987793" TexMod_WRotateRate="0.12084961" TexMod_WRotateAmplitude="0.49987793" TexMod_UOscillatorRate="0.5" TexMod_VOscillatorRate="0.25" TexMod_UOscillatorAmplitude="0.5" TexMod_VOscillatorAmplitude="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Base_material" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_rough" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.58823532,0.58823532,0.58823532" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/galvanizedmetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/galvanizedmetal_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="Stripes_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.30000001,0.30000001,0.30000001" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/textures_library/128/warningstripes .dds">
+     <TexMod TileU="32" TileV="32"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Chrome_material" MtlFlags="128" Shader="Metal" GenMask="268435472" SurfaceType="mat_metal_shell_large" Diffuse="0.58823532,0.58823532,0.58823532" Specular="2,2,2" Emissive="0,0,0" Shininess="32" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_cargobays_merchantile_floor.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/objects_mwll/architecture/dropships/is_aurora/aurora_cargobays_merchantile_floor_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tsa/tsa_dropships2020/Architecture/Dropships/IS_Aurora/Aurora_CargoBays_Merchantile_floor_NMAP.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/defaultcm.dds">
+     <TexMod TexMod_TexGenType="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75" ReflectionAmount="0.25" FresnelBias="0" FresnelScale="1"/>
+  </Material>
+  <Material Name="Body_Detail_material" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_rough" Diffuse="0.45882356,0.45882356,0.45882356" Specular="0.20784315,0.20784315,0.20784315" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/galvanizedmetal_color.dds">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/galvanizedmetal_spec.dds">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="Body_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.43921572,0.43921572,0.43921572" Specular="0.45882356,0.45882356,0.45882356" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/mwll_textures/base/blackrusted_color.dds">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/mwll_textures/base/blackrusted_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+</Material>
