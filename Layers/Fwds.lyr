@@ -45,7 +45,7 @@
      </Object>
      <Object Type="Group" Layer="Fwds" Id="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Name="Fac2" Parent="{82432D74-FBB5-4225-9D01-372926187281}" Pos="36.625,32.875,7.25" Rotate="-4.3711395e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
       <Objects>
-       <Object Type="Shape" Layer="Fwds" Id="{2053B4D7-56AE-4D14-8554-3FD3CBCC724F}" Name="buyzone25" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="21.540039,-19.801514,-6.700531" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16763904" Width="0" Height="25" AreaId="2" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+       <Object Type="Shape" Layer="Fwds" Id="{2053B4D7-56AE-4D14-8554-3FD3CBCC724F}" Name="buyzone25" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="21.540039,-19.801514,-6.700531" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16763904" Width="0" Height="25" AreaId="2" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
         <Points>
          <Point Pos="0,0,0"/>
          <Point Pos="-31.289917,-0.30010986,0"/>
@@ -60,7 +60,7 @@
          <Entity Id="{2A43FB1B-CB14-4277-A9F3-242FC249B399}"/>
         </Entities>
        </Object>
-       <Object Type="Shape" Layer="Fwds" Id="{147AC9CC-2D2A-4F01-B4D3-39436BEE1812}" Name="TC_VehicleTrigger01_Factory_Area62" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-4.550293,-9.6376953,-11.75" Rotate="-4.5695582e-008,0,0,1" ColorRGB="16763904" Width="0" Height="25" AreaId="61" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+       <Object Type="Shape" Layer="Fwds" Id="{147AC9CC-2D2A-4F01-B4D3-39436BEE1812}" Name="TC_VehicleTrigger01_Factory_Area62" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="-4.550293,-9.6376953,-11.75" Rotate="-4.5695586e-008,0,0,1" ColorRGB="16763904" Width="0" Height="25" AreaId="61" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
         <Points>
          <Point Pos="0,0,0"/>
          <Point Pos="-19,0.125,0"/>
@@ -86,7 +86,7 @@
         <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
        </Object>
        <Object Type="Entity" Layer="Fwds" Id="{2A43FB1B-CB14-4277-A9F3-242FC249B399}" Name="TC_Factory_Forward1" Parent="{F1CEDC02-390C-4FA2-9105-08824F651C65}" Pos="5.4041748,-3.0316162,-5.4234009" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Factory">
-        <Properties basePowerLevel="0" buyAreaId="2" bDisableRepairs="1" factoryClass="" bGeneratePower="0" bIsForwardBase="1" objModel="" nPowerIndex="1" bPowerStorage="0" nQueueSize="5" bRepairAerosInBuyZone="0" serviceAreaId="2" bShowOnMinimap="1" szName="" teamName="tan" Vehicles="">
+        <Properties basePowerLevel="0" buyAreaId="2" bDisableRepairs="1" factoryClass="" bGeneratePower="0" bIsForwardBase="1" objModel="" nPowerIndex="1" bPowerStorage="0" nQueueSize="5" bRepairAerosInBuyZone="0" serviceAreaId="2" bShowOnMinimap="1" szName="" teamName="black" Vehicles="">
          <buyOptions bAerospaceCL="0" bAerospaceIS="0" bAmmo="1" bArtilleryCL="1" bArtilleryIS="1" bAssaultMechsCL="1" bAssaultMechsIS="1" bHeavyMechsCL="1" bHeavyMechsIS="1" bHovercraftsCL="1" bHovercraftsIS="1" bLightMechsCL="1" bLightMechsIS="1" bMediumMechsCL="1" bMediumMechsIS="1" bSvtolsCL="0" bSvtolsIS="0" bTanksCL="1" bTanksIS="1" bVtolsCL="0" bVtolsIS="0" bWeapons="1"/>
          <Slot1 AreaId="0" CloseAnimation="" bEnabled="1" OpenAnimation="" SpawnHelperName="spawn" bUseEntitySpawnHelper="1" VehicleAreaId="61"/>
          <Slot2 AreaId="0" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="spawn02" bUseEntitySpawnHelper="0" VehicleAreaId="62"/>
@@ -203,7 +203,7 @@
          <Entity Id="{CD404558-E09F-4A68-859F-7EEDC2932E03}"/>
         </Entities>
        </Object>
-       <Object Type="Shape" Layer="Fwds" Id="{872F80C0-0CC1-40E8-AB34-CD2671AFC86E}" Name="TC_VehicleTrigger01_Factory_Area61" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-4.550293,-9.6376953,-11.75" Rotate="-4.5695582e-008,0,0,1" ColorRGB="16763904" Width="0" Height="25" AreaId="61" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+       <Object Type="Shape" Layer="Fwds" Id="{872F80C0-0CC1-40E8-AB34-CD2671AFC86E}" Name="TC_VehicleTrigger01_Factory_Area61" Parent="{6DD2F683-9BE8-460B-8B9A-059B1DFB92F7}" Pos="-4.550293,-9.6376953,-11.75" Rotate="-4.5695582e-008,0,0,1" ColorRGB="16763904" Width="0" Height="25" AreaId="61" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
         <Points>
          <Point Pos="0,0,0"/>
          <Point Pos="-19,0.125,0"/>

@@ -51,24 +51,24 @@
      </Edges>
     </FlowGraph>
    </Object>
-   <Object Type="Shape" Layer="CoolantTrucks" Id="{9D47B948-F43B-400F-A977-CDFCC1BC50FF}" Name="ColdVolume4" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="8.5,9,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+   <Object Type="Shape" Layer="CoolantTrucks" Id="{9D47B948-F43B-400F-A977-CDFCC1BC50FF}" Name="ColdVolume4" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="10.5,10.75,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
     <Points>
      <Point Pos="0,0,0"/>
-     <Point Pos="-18,0,0"/>
-     <Point Pos="-18,-18,0"/>
-     <Point Pos="0,-18,0"/>
+     <Point Pos="-22,0,0"/>
+     <Point Pos="-22,-22,0"/>
+     <Point Pos="0,-22,0"/>
     </Points>
     <Entities>
      <Entity Id="{CEBDE176-36CA-4BA2-9311-342BAD3AD9A6}"/>
      <Entity Id="{B30BF955-DE80-4F23-B62A-A0F63156FE1D}"/>
     </Entities>
    </Object>
-   <Object Type="Shape" Layer="CoolantTrucks" Id="{C2B1ED49-864D-4C88-A3C0-537766DED4AE}" Name="ColdVolume3" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="8.5,9,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+   <Object Type="Shape" Layer="CoolantTrucks" Id="{C2B1ED49-864D-4C88-A3C0-537766DED4AE}" Name="ColdVolume3" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="10.5,11,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
     <Points>
      <Point Pos="0,0,0"/>
-     <Point Pos="-18,0,0"/>
-     <Point Pos="-18,-18,0"/>
-     <Point Pos="0,-18,0"/>
+     <Point Pos="-22,0,0"/>
+     <Point Pos="-22,-22,0"/>
+     <Point Pos="0,-22,0"/>
     </Points>
     <Entities>
      <Entity Id="{0D0C3175-4471-4E77-A908-0795E0219750}"/>
@@ -76,12 +76,12 @@
     </Entities>
    </Object>
    <Object Type="Decal" Layer="CoolantTrucks" Id="{82A4E54C-409B-4D11-9F38-08041604AE56}" Name="Decal3553" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
-   <Object Type="Shape" Layer="CoolantTrucks" Id="{620D714E-7705-45F6-AF14-B9ED08EA289D}" Name="ColdVolume1" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="8.5,9,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+   <Object Type="Shape" Layer="CoolantTrucks" Id="{620D714E-7705-45F6-AF14-B9ED08EA289D}" Name="ColdVolume1" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="10.5,11,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
     <Points>
      <Point Pos="0,0,0"/>
-     <Point Pos="-18,0,0"/>
-     <Point Pos="-18,-18,0"/>
-     <Point Pos="0,-18,0"/>
+     <Point Pos="-22,0,0"/>
+     <Point Pos="-22,-22,0"/>
+     <Point Pos="-0.5,-22,0"/>
     </Points>
     <Entities>
      <Entity Id="{210402BB-121E-4F0A-8467-B8311A457AA6}"/>
@@ -149,7 +149,7 @@
     </FlowGraph>
    </Object>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{FFA6F875-F9C0-4FD1-8DF9-D9E1B3D82001}" Name="CooantTruckService1" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="-0.625,-0.125,9" Rotate="4.3711388e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
-    <Properties bActivateWithUseButton="0" DimX="18" DimY="18" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <Properties bActivateWithUseButton="0" DimX="22" DimY="22" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
     <FlowGraph Description="" Group="Cooling" enabled="1" MultiPlayer="ClientServer">
      <Nodes>
       <Node Id="2" Class="entity:ProximityTrigger" pos="-330,-390,0" flags="0" GraphEntity="0">
@@ -183,7 +183,7 @@
      </Edges>
     </FlowGraph>
    </Object>
-   <Object Type="Entity" Layer="CoolantTrucks" Id="{CEBDE176-36CA-4BA2-9311-342BAD3AD9A6}" Name="FrostyAreaTrigger4" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="1.375,1.25,7.625" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
+   <Object Type="Entity" Layer="CoolantTrucks" Id="{CEBDE176-36CA-4BA2-9311-342BAD3AD9A6}" Name="FrostyAreaTrigger4" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="1.374939,1.25,7.625" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
     <Properties bEnabled="1" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="1" ScriptCommand="" species="-1" bTriggerOnce="0"/>
     <EntityLinks>
      <Link TargetId="{BD432DFF-8803-4129-AE37-E3C36C8C536F}" Name="CarryAlong"/>
@@ -236,7 +236,7 @@
     </Properties>
    </Object>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{EB37A3A5-A47B-46EB-864D-474166627381}" Name="CooantTruckService3" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="-0.625,-0.125,9" Rotate="4.3711388e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
-    <Properties bActivateWithUseButton="0" DimX="18" DimY="18" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <Properties bActivateWithUseButton="0" DimX="22" DimY="22" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
     <FlowGraph Description="" Group="Cooling" enabled="1" MultiPlayer="ClientServer">
      <Nodes>
       <Node Id="2" Class="entity:ProximityTrigger" pos="-330,-390,0" flags="0" GraphEntity="0">
@@ -270,7 +270,7 @@
      </Edges>
     </FlowGraph>
    </Object>
-   <Object Type="Entity" Layer="CoolantTrucks" Id="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Name="CoolantTruckP4" Pos="1093.5,1343.75,4" Rotate="0.043619454,0,0,0.99904823" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+   <Object Type="Entity" Layer="CoolantTrucks" Id="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Name="CoolantTruckP4" Pos="1093.5,1343.75,4" Rotate="7.0780516e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
     <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/architecture/props/all/coolingtruck/coolanttruck.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
      <Physics bActivateOnDamage="1" bCanBreakOthers="1" Density="-1" Mass="30000" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
       <Buoyancy water_damping="1" water_density="128" water_resistance="20000"/>
@@ -279,12 +279,12 @@
     </Properties>
    </Object>
    <Object Type="Decal" Layer="CoolantTrucks" Id="{E2EBF6B6-D417-484A-96C0-0BDBE16F2794}" Name="Decal3561" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
-   <Object Type="Shape" Layer="CoolantTrucks" Id="{D1F797B8-4DF6-41CB-ABFF-059924F24C69}" Name="ColdVolume2" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="8.5,9,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+   <Object Type="Shape" Layer="CoolantTrucks" Id="{D1F797B8-4DF6-41CB-ABFF-059924F24C69}" Name="ColdVolume2" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="10.25,11,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
     <Points>
      <Point Pos="0,0,0"/>
-     <Point Pos="-18,0,0"/>
-     <Point Pos="-18,-18,0"/>
-     <Point Pos="0,-18,0"/>
+     <Point Pos="-22,0,0"/>
+     <Point Pos="-22,-22,0"/>
+     <Point Pos="0,-22,0"/>
     </Points>
     <Entities>
      <Entity Id="{39201644-D557-49E3-8513-0BBE8D1AC36A}"/>
@@ -348,8 +348,8 @@
      </Physics>
     </Properties>
    </Object>
-   <Object Type="Entity" Layer="CoolantTrucks" Id="{3C6C4EE4-70D3-446E-B5BF-C26AB5F863D2}" Name="CooantTruckService2" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="-0.625,-0.125,9" Rotate="4.3711388e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
-    <Properties bActivateWithUseButton="0" DimX="18" DimY="18" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+   <Object Type="Entity" Layer="CoolantTrucks" Id="{3C6C4EE4-70D3-446E-B5BF-C26AB5F863D2}" Name="CooantTruckService2" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="-0.625,-0.125,9" Rotate="4.3711381e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="22" DimY="22" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
     <FlowGraph Description="" Group="Cooling" enabled="1" MultiPlayer="ClientServer">
      <Nodes>
       <Node Id="2" Class="entity:ProximityTrigger" pos="-330,-390,0" flags="0" GraphEntity="0">
@@ -383,7 +383,7 @@
      </Edges>
     </FlowGraph>
    </Object>
-   <Object Type="Entity" Layer="CoolantTrucks" Id="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Name="CoolantTruckP3" Pos="1052.5,1377.75,4" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+   <Object Type="Entity" Layer="CoolantTrucks" Id="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Name="CoolantTruckP3" Pos="1052,1377,4" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
     <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/architecture/props/all/coolingtruck/coolanttruck.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
      <Physics bActivateOnDamage="1" bCanBreakOthers="1" Density="-1" Mass="30000" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
       <Buoyancy water_damping="1" water_density="128" water_resistance="20000"/>
@@ -394,8 +394,8 @@
    <Object Type="Decal" Layer="CoolantTrucks" Id="{F97402F0-B79D-4BBE-9DDF-D423ACE2C7CE}" Name="Decal3557" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Decal" Layer="CoolantTrucks" Id="{3A783BFA-EA97-4C23-97ED-8DF0F893B853}" Name="Decal3551" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Decal" Layer="CoolantTrucks" Id="{54B16AFC-064E-4932-9C5B-93692B47A3B6}" Name="Decal3562" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
-   <Object Type="Entity" Layer="CoolantTrucks" Id="{BD432DFF-8803-4129-AE37-E3C36C8C536F}" Name="CooantTruckService4" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-0.625,-0.125,9" Rotate="4.3711388e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
-    <Properties bActivateWithUseButton="0" DimX="18" DimY="18" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+   <Object Type="Entity" Layer="CoolantTrucks" Id="{BD432DFF-8803-4129-AE37-E3C36C8C536F}" Name="CooantTruckService4" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-0.62512207,-0.125,9" Rotate="4.4703484e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="22" DimY="22" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
     <FlowGraph Description="" Group="Cooling" enabled="1" MultiPlayer="ClientServer">
      <Nodes>
       <Node Id="2" Class="entity:ProximityTrigger" pos="-330,-390,0" flags="0" GraphEntity="0">
