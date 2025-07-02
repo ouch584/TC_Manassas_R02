@@ -1,22 +1,16 @@
 Big thanks to Ouch, Rick Hunter, Invictus and Insomniac_GamerTV for map testing!
 Big thanks to Xcalibur and Plotting-Racoon for further map testing on R01!
 Big Thanks to Asgard, Sabitsuki, OptimusShr, GuardianDragon
+
 1. update 'sources' with updated flographs and pics where applicable
-2. PlayTest: Check if the minimap is still broken if triggers on "MyPlayerOnly"
+2. playtest: are teleports still prone to breakage (why?)
 3. Post playtest: Make team discrimination via playerID work in "Take me home" area
-4. Post playtest:  Fix that one vanir visarea and portal issue
-5. Post playtest:  Fix visarea issues in Aurora Halo room and cargo modules 
+4. Post playtest: Fix that one vanir visarea and portal issue
+5. Post playtest: Fix visarea issues in Aurora Halo room and cargo modules 
 6. Post playtest: Remake endless storage area and cull all the offending objects
-post play test:
-7. Release index to be set to R02
-8. disable ASF spawnpoint on Vanir
-9. there are more bodies protruding the top level - find them!
-10. teleports still prone to breakage (why?)
-11. redo Vanir teleports to be more in likes to Aurora and move spawnpoints away for the minimap to be easier to read
-12. make one (two?) more belt(s) around each dropship to contain misses
-13. make "take me home" have array of teleports to contain misses better
-14. try address seams on the white liquid zone
-15. K-F core front coil on upper coil disapears on certain angles
-16. try occlude fog areas that shine thru as black patches
-17. make more navigation clues across the map
-18. increase cube of coolant trucks for 4 more meters each side for mars to fit more easy
+7. there are more bodies protruding the top level - find them!
+8. make one (two?) more belt(s) around each dropship to contain misses
+9. try address seams on the white liquid zone
+10. K-F core front coil on upper coil disapears on certain angles
+11. try occlude fog areas that shine thru as black patches
+12. make more navigation clues across the map

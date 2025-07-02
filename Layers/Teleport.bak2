@@ -493,8 +493,8 @@
      <Size x="264" y="200" z="34"/>
     </Properties>
    </Object>
-   <Object Type="Entity" Layer="Teleport" Id="{CD38A65F-113A-4191-956F-9862C33ACA67}" Name="TakeMeHome2" Pos="1948,3108,60" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
-    <Properties bActivateWithUseButton="0" DimX="104" DimY="104" DimZ="18" bEnabled="1" EnterDelay="0.1" ExitDelay="0.1" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+   <Object Type="Entity" Layer="Teleport" Id="{CD38A65F-113A-4191-956F-9862C33ACA67}" Name="TakeMeHome_walker2" Pos="1974,3108,60" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="52" DimY="104" DimZ="18" bEnabled="1" EnterDelay="0.1" ExitDelay="0.1" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
     <EntityLinks>
      <Link TargetId="{198BEEB8-AAE3-4AC7-9FC9-C45C2A5827D0}" Name="NewLink"/>
     </EntityLinks>
@@ -509,15 +509,7 @@
       <Node Id="3" Class="HUD:ShowHUDMessage" pos="110,-220,0" flags="0">
        <Inputs text_Message="Take Her Home Cowboy" Pos="1" clr_Color="1,1,1" Time="3"/>
       </Node>
-      <Node Id="84" Class="Entity:ParentId" pos="-300,70,0" flags="0">
-       <Inputs entityId="0"/>
-      </Node>
-      <Node Id="87" Name="Beam vehicle" Class="_comment" pos="190,190,0" flags="0"/>
       <Node Id="89" Name="Beam actor" Class="_comment" pos="190,290,0" flags="0"/>
-      <Node Id="93" Name="Actor in vehicle?" Class="_comment" pos="-300,40,0" flags="0"/>
-      <Node Id="95" Class="Entity:BeamEntity" pos="190,210,0" flags="0" GraphEntity="0">
-       <Inputs entityId="0" Position="0,0,0" Rotation="0,0,0" Scale="0,0,0"/>
-      </Node>
       <Node Id="104" Name="IS (NK/tan) team" Class="_comment" pos="-300,120,0" flags="0"/>
       <Node Id="106" Name="Clan (US/black) team" Class="_comment" pos="-300,250,0" flags="0"/>
       <Node Id="117" Class="Entity:EntityPos" pos="-300,150,0" flags="0" EntityGUID="{198BEEB8-AAE3-4AC7-9FC9-C45C2A5827D0}" EntityGUID_64="4AC7AAE3198BEEB8">
@@ -532,26 +524,22 @@
       <Node Id="122" Class="Logic:Blocker" pos="-110,-50,0" flags="0">
        <Inputs Block="0"/>
       </Node>
-      <Node Id="131" Class="Multiplayer:ClientServer" pos="-300,-90,0" flags="1"/>
-      <Node Id="139" Class="Entity:BeamEntity" pos="190,310,0" flags="0" GraphEntity="0">
+      <Node Id="131" Class="Multiplayer:ClientServer" pos="-300,-90,0" flags="0"/>
+      <Node Id="139" Class="Entity:BeamEntity" pos="190,310,0" flags="1" GraphEntity="0">
        <Inputs entityId="0" Position="0,0,0" Rotation="0,0,0" Scale="0,0,0"/>
       </Node>
      </Nodes>
      <Edges>
       <Edge nodeIn="1" nodeOut="2" portIn="entityId" portOut="Sender" enabled="1"/>
       <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="Enter" enabled="1"/>
-      <Edge nodeIn="84" nodeOut="2" portIn="entityId" portOut="Sender" enabled="1"/>
       <Edge nodeIn="122" nodeOut="2" portIn="In" portOut="Enter" enabled="1"/>
       <Edge nodeIn="139" nodeOut="2" portIn="Beam" portOut="Sender" enabled="1"/>
       <Edge nodeIn="139" nodeOut="2" portIn="entityId" portOut="Sender" enabled="1"/>
-      <Edge nodeIn="95" nodeOut="84" portIn="Beam" portOut="parentId" enabled="1"/>
-      <Edge nodeIn="95" nodeOut="84" portIn="entityId" portOut="parentId" enabled="1"/>
-      <Edge nodeIn="95" nodeOut="117" portIn="Position" portOut="pos" enabled="1"/>
-      <Edge nodeIn="95" nodeOut="117" portIn="Rotation" portOut="rotate" enabled="1"/>
       <Edge nodeIn="139" nodeOut="117" portIn="Position" portOut="pos" enabled="1"/>
       <Edge nodeIn="139" nodeOut="117" portIn="Rotation" portOut="rotate" enabled="1"/>
       <Edge nodeIn="1" nodeOut="122" portIn="PlayTrigger" portOut="Out" enabled="1"/>
       <Edge nodeIn="122" nodeOut="131" portIn="Block" portOut="isServer" enabled="1"/>
+      <Edge nodeIn="119" nodeOut="139" portIn="Trigger" portOut="Done" enabled="1"/>
      </Edges>
     </FlowGraph>
    </Object>
@@ -690,6 +678,61 @@
       <Edge nodeIn="66" nodeOut="101" portIn="Position" portOut="pos" enabled="1"/>
       <Edge nodeIn="66" nodeOut="101" portIn="Rotation" portOut="rotate" enabled="1"/>
       <Edge nodeIn="85" nodeOut="122" portIn="PlayTrigger" portOut="Out" enabled="1"/>
+      <Edge nodeIn="122" nodeOut="131" portIn="Block" portOut="isServer" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Teleport" Id="{ADED226E-0532-416F-A193-CF672C08E2C8}" Name="TakeMeHome_vee2" Pos="1922,3108,60" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="52" DimY="104" DimZ="18" bEnabled="1" EnterDelay="0.1" ExitDelay="0.1" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <EntityLinks>
+     <Link TargetId="{198BEEB8-AAE3-4AC7-9FC9-C45C2A5827D0}" Name="NewLink"/>
+    </EntityLinks>
+    <FlowGraph Description="" Group="Teleport_noclip" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Sound:PlaySoundEvent" pos="30,-60,0" flags="0">
+       <Inputs entityId="0" Enable="1" sound_SoundEvent="sounds/alien:trooper:jump_charge" Voice="0" Once="0"/>
+      </Node>
+      <Node Id="2" Class="entity:ProximityTrigger" pos="-300,-190,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="3" Class="HUD:ShowHUDMessage" pos="110,-220,0" flags="0">
+       <Inputs text_Message="Take Her Home Cowboy" Pos="1" clr_Color="1,1,1" Time="3"/>
+      </Node>
+      <Node Id="84" Class="Entity:ParentId" pos="-300,70,0" flags="0">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="87" Name="Beam vehicle" Class="_comment" pos="190,190,0" flags="0"/>
+      <Node Id="93" Name="Actor in vehicle?" Class="_comment" pos="-300,40,0" flags="0"/>
+      <Node Id="95" Class="Entity:BeamEntity" pos="190,210,0" flags="1" GraphEntity="0">
+       <Inputs entityId="0" Position="0,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+      </Node>
+      <Node Id="104" Name="IS (NK/tan) team" Class="_comment" pos="-300,120,0" flags="0"/>
+      <Node Id="106" Name="Clan (US/black) team" Class="_comment" pos="-300,250,0" flags="0"/>
+      <Node Id="117" Class="Entity:EntityPos" pos="-300,150,0" flags="0" EntityGUID="{198BEEB8-AAE3-4AC7-9FC9-C45C2A5827D0}" EntityGUID_64="4AC7AAE3198BEEB8">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+      <Node Id="118" Class="Entity:EntityPos" pos="-300,280,0" flags="0" EntityGUID="{772F75DF-110D-482C-BA05-48077B62F6BE}" EntityGUID_64="482C110D772F75DF">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+      <Node Id="119" Class="HUD:ShowHUDMessage" pos="110,-140,0" flags="0">
+       <Inputs text_Message="See You Soon Spheroid" Pos="3" clr_Color="0.882353,0.870588,0.384314" Time="3"/>
+      </Node>
+      <Node Id="122" Class="Logic:Blocker" pos="-110,-50,0" flags="0">
+       <Inputs Block="0"/>
+      </Node>
+      <Node Id="131" Class="Multiplayer:ClientServer" pos="-300,-90,0" flags="0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="1" nodeOut="2" portIn="entityId" portOut="Sender" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="84" nodeOut="2" portIn="entityId" portOut="Sender" enabled="1"/>
+      <Edge nodeIn="122" nodeOut="2" portIn="In" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="95" nodeOut="84" portIn="Beam" portOut="parentId" enabled="1"/>
+      <Edge nodeIn="95" nodeOut="84" portIn="entityId" portOut="parentId" enabled="1"/>
+      <Edge nodeIn="119" nodeOut="95" portIn="Trigger" portOut="Done" enabled="1"/>
+      <Edge nodeIn="95" nodeOut="117" portIn="Position" portOut="pos" enabled="1"/>
+      <Edge nodeIn="95" nodeOut="117" portIn="Rotation" portOut="rotate" enabled="1"/>
+      <Edge nodeIn="1" nodeOut="122" portIn="PlayTrigger" portOut="Out" enabled="1"/>
       <Edge nodeIn="122" nodeOut="131" portIn="Block" portOut="isServer" enabled="1"/>
      </Edges>
     </FlowGraph>
