@@ -1,7 +1,7 @@
 <ObjectLayer>
- <Layer Name="CoolantTrucks" GUID="{AE3CDE19-ED28-4DDC-9676-C69C51A2A8FF}" Hidden="1" Frozen="1" External="1" Exportable="1">
+ <Layer Name="CoolantTrucks" GUID="{AE3CDE19-ED28-4DDC-9676-C69C51A2A8FF}" Hidden="0" Frozen="1" External="1" Exportable="1">
   <LayerObjects>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{2521D907-F76A-4176-BA37-33429EC03FCC}" Name="Decal3560" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-4.5,-5.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{2521D907-F76A-4176-BA37-33429EC03FCC}" Name="Decal3560" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-4.5,-5.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{6106B50A-3697-4777-8A44-DA7857BCB61D}" Name="FreezingHazard2" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="-3,1.5,10" ColorRGB="65535" MatLayersMask="8" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Hazard">
     <Properties bEnabled="1">
      <Damage fDamage="0" eiHazardType="2" bOnlyPlayer="1">
@@ -9,7 +9,7 @@
      </Damage>
     </Properties>
    </Object>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{3261AA17-7C04-44F5-B49C-714BBDE5DF1D}" Name="Decal3556" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="-4.5,-5.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{3261AA17-7C04-44F5-B49C-714BBDE5DF1D}" Name="Decal3556" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="-4.5,-5.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{39201644-D557-49E3-8513-0BBE8D1AC36A}" Name="FrostyAreaTrigger2" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="1.375,1.25,7.625" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
     <Properties bEnabled="1" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="1" ScriptCommand="" species="-1" bTriggerOnce="0"/>
     <EntityLinks>
@@ -75,7 +75,7 @@
      <Entity Id="{C5CD934E-6718-48F9-A259-6D73A91FCC45}"/>
     </Entities>
    </Object>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{82A4E54C-409B-4D11-9F38-08041604AE56}" Name="Decal3553" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{82A4E54C-409B-4D11-9F38-08041604AE56}" Name="Decal3553" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Shape" Layer="CoolantTrucks" Id="{620D714E-7705-45F6-AF14-B9ED08EA289D}" Name="ColdVolume1" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="10.5,11,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
     <Points>
      <Point Pos="0,0,0"/>
@@ -95,7 +95,7 @@
      </Damage>
     </Properties>
    </Object>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{3CBA3B54-8D75-406E-9974-225D03E36A4F}" Name="Decal3548" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="-4.5,-5.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{3CBA3B54-8D75-406E-9974-225D03E36A4F}" Name="Decal3548" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="-4.5,-5.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{B30BF955-DE80-4F23-B62A-A0F63156FE1D}" Name="FreezingHazard4" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-3,1.5,10" ColorRGB="65535" MatLayersMask="8" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Hazard">
     <Properties bEnabled="1">
      <Damage fDamage="0" eiHazardType="2" bOnlyPlayer="1">
@@ -103,10 +103,10 @@
      </Damage>
     </Properties>
    </Object>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{8E6EF85A-7290-4219-ADF6-7366A7BD7CBA}" Name="Decal3555" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{A242E35D-6475-4A44-AC2D-613DEDD6BAE0}" Name="Decal3552" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="-4.5,-5.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{F48D2862-C27A-467B-A2B1-65D94BF79A72}" Name="Decal3559" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{9CCC6171-81FE-4FAC-9CCF-9711691ABAF6}" Name="Decal3563" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{8E6EF85A-7290-4219-ADF6-7366A7BD7CBA}" Name="Decal3555" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{A242E35D-6475-4A44-AC2D-613DEDD6BAE0}" Name="Decal3552" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="-4.5,-5.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{F48D2862-C27A-467B-A2B1-65D94BF79A72}" Name="Decal3559" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{9CCC6171-81FE-4FAC-9CCF-9711691ABAF6}" Name="Decal3563" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{0D0C3175-4471-4E77-A908-0795E0219750}" Name="FrostyAreaTrigger3" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="1.375,1.25,7.625" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
     <Properties bEnabled="1" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="1" ScriptCommand="" species="-1" bTriggerOnce="0"/>
     <EntityLinks>
@@ -224,9 +224,9 @@
      </Edges>
     </FlowGraph>
    </Object>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{A6ABAB7A-4A03-4397-92E9-DAA19C1F510E}" Name="Decal3554" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{D6870587-D68A-4B0A-B8CD-A48E71DB1E06}" Name="Decal3549" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{4A4B2C8C-3F7E-412B-B932-EC5B0F235AB8}" Name="Decal3558" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{A6ABAB7A-4A03-4397-92E9-DAA19C1F510E}" Name="Decal3554" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{D6870587-D68A-4B0A-B8CD-A48E71DB1E06}" Name="Decal3549" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{4A4B2C8C-3F7E-412B-B932-EC5B0F235AB8}" Name="Decal3558" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Name="CoolantTruckP2" Pos="2927.5,2919.75,51" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
     <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/architecture/props/all/coolingtruck/coolanttruck.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
      <Physics bActivateOnDamage="1" bCanBreakOthers="1" Density="-1" Mass="30000" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
@@ -278,7 +278,7 @@
      </Physics>
     </Properties>
    </Object>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{E2EBF6B6-D417-484A-96C0-0BDBE16F2794}" Name="Decal3561" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{E2EBF6B6-D417-484A-96C0-0BDBE16F2794}" Name="Decal3561" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Shape" Layer="CoolantTrucks" Id="{D1F797B8-4DF6-41CB-ABFF-059924F24C69}" Name="ColdVolume2" Parent="{96363EA1-1763-4F0B-924B-17A6300FD5C9}" Pos="10.25,11,0" ColorRGB="13866115" FlattenArea="1" Width="0" Height="18" AreaId="0" GroupId="22" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
     <Points>
      <Point Pos="0,0,0"/>
@@ -339,7 +339,7 @@
      </Damage>
     </Properties>
    </Object>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{72A000CA-0DBA-4A71-8C35-91DE561F9610}" Name="Decal3550" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{72A000CA-0DBA-4A71-8C35-91DE561F9610}" Name="Decal3550" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Name="CoolantTruckP1" Pos="2899.5,2951,51" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
     <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/architecture/props/all/coolingtruck/coolanttruck.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
      <Physics bActivateOnDamage="1" bCanBreakOthers="1" Density="-1" Mass="30000" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
@@ -391,9 +391,9 @@
      </Physics>
     </Properties>
    </Object>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{F97402F0-B79D-4BBE-9DDF-D423ACE2C7CE}" Name="Decal3557" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{3A783BFA-EA97-4C23-97ED-8DF0F893B853}" Name="Decal3551" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
-   <Object Type="Decal" Layer="CoolantTrucks" Id="{54B16AFC-064E-4932-9C5B-93692B47A3B6}" Name="Decal3562" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65792"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{F97402F0-B79D-4BBE-9DDF-D423ACE2C7CE}" Name="Decal3557" Parent="{FCFA9DED-8629-49ED-847E-1B250732DB38}" Pos="2.125,6.125,0" Rotate="0.9238795,0,0,0.38268346" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{3A783BFA-EA97-4C23-97ED-8DF0F893B853}" Name="Decal3551" Parent="{AE265BE1-CBF1-4F31-9F75-FD950ACDB9C4}" Pos="3.125,-5.75,0" Rotate="0.96592581,0,0,-0.25881898" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
+   <Object Type="Decal" Layer="CoolantTrucks" Id="{54B16AFC-064E-4932-9C5B-93692B47A3B6}" Name="Decal3562" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-4.375,5.375,0" Rotate="0.79335338,0,0,-0.60876143" Scale="4,4,4" ColorRGB="16744319" Material="Materials/Decals/frozen_harbor" ProjectionType="3" ViewDistRatio="100" SortPriority="16" RndFlags="65536"/>
    <Object Type="Entity" Layer="CoolantTrucks" Id="{BD432DFF-8803-4129-AE37-E3C36C8C536F}" Name="CooantTruckService4" Parent="{EA16E1AD-67A5-413C-944B-0D8E9FDC3901}" Pos="-0.62512207,-0.125,9" Rotate="4.4703484e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
     <Properties bActivateWithUseButton="0" DimX="22" DimY="22" DimZ="18" bEnabled="1" EnterDelay="0.2" ExitDelay="0.5" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="1" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
     <FlowGraph Description="" Group="Cooling" enabled="1" MultiPlayer="ClientServer">
