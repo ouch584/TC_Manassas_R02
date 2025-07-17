@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Teleport" GUID="{92B05952-0226-48F6-945D-B92F014AA83C}" Hidden="1" Frozen="1" External="1" Exportable="1">
+ <Layer Name="Teleport" GUID="{92B05952-0226-48F6-945D-B92F014AA83C}" Hidden="0" Frozen="0" External="1" Exportable="1">
   <LayerObjects>
    <Object Type="Prefab" Layer="Teleport" Id="{7199AB00-B24C-4C68-8B30-46215C301BB2}" Name="Prefab9" Pos="2788.75,2173.625,167.23213" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{2F1CD5B3-642A-452F-B753-DEA31C364150}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_2pcs-alt"/>
    <Object Type="Entity" Layer="Teleport" Id="{7DDA5908-CA3B-43CE-AD8D-D03912AC4430}" Name="FogVolume9" Pos="2950,1212,66" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="FogVolume">
@@ -1369,7 +1369,10 @@
    <Object Type="Prefab" Layer="Teleport" Id="{0377F7C7-EF86-4A41-9D60-C9247B1DDA33}" Name="Prefab10" Pos="2789.75,1991.625,163.48062" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{2F1CD5B3-642A-452F-B753-DEA31C364150}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_2pcs-alt"/>
    <Object Type="Prefab" Layer="Teleport" Id="{4B063BC8-0960-43D0-ABBA-596D126D560B}" Name="Prefab11" Pos="2951.375,1990.375,165.09126" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{2F1CD5B3-642A-452F-B753-DEA31C364150}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_2pcs-alt"/>
    <Object Type="ReverbVolume" Layer="Teleport" Id="{187D10D0-1A1D-4B49-AD5C-AE0C0243DD6D}" Name="ReverbVolume10" Pos="3115,2030,355" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ReverbVolume">
-    <Properties bEnabled="1" bFullEffectWhenInside="1" OuterRadius="2" reverbpresetReverbPreset="Plain"/>
+    <Properties bEnabled="1" bFullEffectWhenInside="1" OuterRadius="80" reverbpresetReverbPreset="Plain"/>
+    <EntityLinks>
+     <Link TargetId="{DA36E989-3852-4AE0-A204-0F5713AB4FEC}" Name="NewLink"/>
+    </EntityLinks>
    </Object>
    <Object Type="Entity" Layer="Teleport" Id="{0CB9EAD3-DB17-4272-94DF-FECE169D8EEC}" Name="PT3_vee2" Pos="2872.9482,1964.4504,204" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="255" ViewDistRatio="255" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
     <Properties bActivateWithUseButton="0" DimX="200" DimY="20" DimZ="80" bEnabled="1" EnterDelay="0.1" ExitDelay="0.1" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>

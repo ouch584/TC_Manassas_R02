@@ -41,7 +41,7 @@
    <Object Type="Entity" Layer="MiniMap" Id="{DAA58C81-BF74-4ADA-8D8A-B3DA13F12FCD}" Name="MiniMap-Outside" Pos="1795,2413,365" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
     <Properties bEnabled="1" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="0" ScriptCommand="" species="-1" bTriggerOnce="0"/>
    </Object>
-   <Object Type="Shape" Layer="MiniMap" Id="{DA36E989-3852-4AE0-A204-0F5713AB4FEC}" Name="Shape_Outside" Pos="806,3263,101" ColorRGB="4259584" Width="0" Height="300" AreaId="0" GroupId="0" Priority="1" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
+   <Object Type="Shape" Layer="MiniMap" Id="{DA36E989-3852-4AE0-A204-0F5713AB4FEC}" Name="Shape_Outside" Pos="806,3263,101" ColorRGB="4259584" Width="0" Height="300" AreaId="0" GroupId="0" Priority="6" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="0" EntityClass="AreaShape">
     <Points>
      <Point Pos="0,0,0"/>
      <Point Pos="2264,-32,0"/>
