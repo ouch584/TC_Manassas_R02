@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="5.Floor_Top" GUID="{7CE87915-D8F9-495B-8BD2-02E24BB2E595}" Hidden="0" Frozen="0" External="1" Exportable="1">
+ <Layer Name="5.Floor_Top" GUID="{7CE87915-D8F9-495B-8BD2-02E24BB2E595}" Hidden="0" Frozen="1" External="1" Exportable="1">
   <LayerObjects>
    <Object Type="Solid" Layer="5.Floor_Top" Id="{C0412103-95CF-438D-BDD4-9081D0A8BE41}" Name="Solid5024" Pos="2912,1632,51" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/br2" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
     <Brush>

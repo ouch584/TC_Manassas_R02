@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Teleport" GUID="{92B05952-0226-48F6-945D-B92F014AA83C}" Hidden="0" Frozen="1" External="1" Exportable="1">
+ <Layer Name="Teleport" GUID="{92B05952-0226-48F6-945D-B92F014AA83C}" Hidden="0" Frozen="0" External="1" Exportable="1">
   <LayerObjects>
    <Object Type="Prefab" Layer="Teleport" Id="{7199AB00-B24C-4C68-8B30-46215C301BB2}" Name="Prefab9" Pos="2788.75,2173.625,167.23213" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{2F1CD5B3-642A-452F-B753-DEA31C364150}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_2pcs-alt"/>
    <Object Type="Entity" Layer="Teleport" Id="{7DDA5908-CA3B-43CE-AD8D-D03912AC4430}" Name="FogVolume9" Pos="2950,1212,66" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="FogVolume">

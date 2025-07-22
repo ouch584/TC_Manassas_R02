@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Clipping" GUID="{68F371DB-3E81-4645-A449-B4B51EF92B12}" Hidden="0" Frozen="0" External="1" Exportable="1">
+ <Layer Name="Clipping" GUID="{68F371DB-3E81-4645-A449-B4B51EF92B12}" Hidden="0" Frozen="1" External="1" Exportable="1">
   <LayerObjects>
    <Object Type="Solid" Layer="Clipping" Id="{00B94931-D224-4748-9735-2B87032A8DF4}" Name="Solid1" Pos="1993,2165,45.5" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
     <Brush>
