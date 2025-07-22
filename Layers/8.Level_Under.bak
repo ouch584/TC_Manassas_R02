@@ -404,15 +404,19 @@
     </Objects>
    </Object>
    <Object Type="Decal" Layer="8.Level_Under" Id="{4D76D751-B14B-432E-AC5E-54E3843A682D}" Name="D_4213" Pos="1496.75,2264,11" Rotate="-0.49999994,-0.5,0.50000006,0.5" Scale="12,12,12" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra3" ProjectionType="1" ViewDistRatio="120" SortPriority="1" RndFlags="0"/>
-   <Object Type="Group" Layer="8.Level_Under" Id="{03980662-04FC-43C8-81C1-4644BD2A122D}" Name="TilesRewerb1" Pos="2036,1176,9" ColorRGB="65280" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{03980662-04FC-43C8-81C1-4644BD2A122D}" Name="TilesRewerb1" Pos="2036,1176,9" ColorRGB="65280" MergeGeom="0" Opened="1">
     <Objects>
      <Object Type="AreaBox" Layer="8.Level_Under" Id="{96CEBD41-F92D-49A5-B1B4-151409EB2280}" Name="AreaBox8" Parent="{03980662-04FC-43C8-81C1-4644BD2A122D}" Pos="-4,-4,-5" ColorRGB="16711680" MatLayersMask="0" AreaId="-1" FadeInZone="30" Width="245" Length="104" Height="18" GroupId="0" Priority="0" ObstructRoof="0" ObstructFloor="0" Filled="0" EntityClass="AreaBox" BoxMin="-122.5,-52,0" BoxMax="122.5,52,18">
       <Entities>
        <Entity Id="{178CF47C-B993-4FF1-A382-E0F71CD52E43}"/>
+       <Entity Id="{11C42859-DE92-4CD9-9691-A2F1ACA0AEA4}"/>
       </Entities>
      </Object>
      <Object Type="ReverbVolume" Layer="8.Level_Under" Id="{178CF47C-B993-4FF1-A382-E0F71CD52E43}" Name="ReverbVolume5" Parent="{03980662-04FC-43C8-81C1-4644BD2A122D}" Pos="-4,-4,12" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ReverbVolume">
       <Properties bEnabled="1" bFullEffectWhenInside="1" OuterRadius="2" reverbpresetReverbPreset="StoneRoom"/>
+     </Object>
+     <Object Type="AmbientVolume" Layer="8.Level_Under" Id="{11C42859-DE92-4CD9-9691-A2F1ACA0AEA4}" Name="AmbientVolume14" Parent="{03980662-04FC-43C8-81C1-4644BD2A122D}" Pos="-4,-4,13.75" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AmbientVolume">
+      <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" bLogBattleValue="0" soundName="sounds/environment:amb_industrial:amb_steam_room_03_loop" OuterRadius="10" bSensitiveToBattle="0"/>
      </Object>
     </Objects>
    </Object>
@@ -2613,7 +2617,7 @@
      <Point Pos="1116,1,-0.099998474" Back="1007.3334,0.65817583,-0.099998474" Forw="1116,1,-0.099998474" Angle="0" Width="0" IsDefaultWidth="1"/>
     </Points>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{6CCE2EE3-AAF6-462F-BEE5-4DD8ED15644B}" Name="TilesRewerb3" Pos="1076,1608,9" ColorRGB="65280" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{6CCE2EE3-AAF6-462F-BEE5-4DD8ED15644B}" Name="TilesRewerb3" Pos="1076,1608,9" ColorRGB="65280" MergeGeom="0" Opened="1">
     <Objects>
      <Object Type="AreaBox" Layer="8.Level_Under" Id="{7E321F89-677C-4DAD-849E-622E7B99EF90}" Name="AreaBox10" Parent="{6CCE2EE3-AAF6-462F-BEE5-4DD8ED15644B}" Pos="-4,-4,-5" ColorRGB="16711680" MatLayersMask="0" AreaId="-1" FadeInZone="40" Width="194" Length="600" Height="18" GroupId="0" Priority="0" ObstructRoof="0" ObstructFloor="0" Filled="0" EntityClass="AreaBox" BoxMin="-97,-300,0" BoxMax="97,300,18">
       <Entities>
@@ -2826,7 +2830,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Name="Walls4" Pos="2036,2151,20.875" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Name="Walls4" Pos="2036,2151,20.875" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Flags="4" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="8.Level_Under" Id="{FF70CE44-1C48-4A71-84BF-2E1471321AFF}" Name="Wall1_1190" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="792,-820.875,-22.5" Rotate="0.65328151,-0.27059808,0.27059808,0.65328145" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/floor" MatLayersMask="2" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>

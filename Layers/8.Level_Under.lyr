@@ -2830,7 +2830,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Name="Walls4" Pos="2036,2151,20.875" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Name="Walls4" Pos="2036,2151,20.875" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Flags="4" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="8.Level_Under" Id="{FF70CE44-1C48-4A71-84BF-2E1471321AFF}" Name="Wall1_1190" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="792,-820.875,-22.5" Rotate="0.65328151,-0.27059808,0.27059808,0.65328145" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/floor" MatLayersMask="2" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>

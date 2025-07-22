@@ -1126,7 +1126,7 @@
      <Style fCoronaDistIntensityFactor="2" fCoronaDistSizeFactor="2" fCoronaScale="2" nLightStyle="0"/>
     </Properties>
    </Object>
-   <Object Type="Group" Layer="4.Level_Top" Id="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Name="Walls3" Pos="1948,2130.375,69" ColorRGB="65280" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="4.Level_Top" Id="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Name="Walls3" Pos="1948,2130.375,69" ColorRGB="65280" Flags="4" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="4.Level_Top" Id="{DD6D6BB5-7E4C-4681-A27B-092F94431467}" Name="Wall1_1092" Parent="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Pos="152,-820.375,4" Rotate="0.70710689,0,0,0.70710671" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>
