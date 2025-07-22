@@ -6,7 +6,6 @@ Big Thanks to Asgard, Sabitsuki, OptimusShr, GuardianDragon
 2. playtest: are teleports still prone to breakage (why?)
 3. Make team discrimination via playerID work in "Take me home" area
 4. Fix that one vanir visarea and portal issue
-5. Remake endless storage area and cull all the offending objects
 6. There are more bodies protruding the top level - find them!
 7. Make one (two?) more belt(s) around each dropship to contain misses?
 8. Try address seams on the white liquid zone
