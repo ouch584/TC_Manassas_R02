@@ -499,7 +499,7 @@
    </Object>
    <Object Type="Decal" Layer="8.Level_Under" Id="{AA4D518B-21CA-43C1-8650-E24FB1134768}" Name="D_4196" Pos="1496.5,2734.625,-3.125" Rotate="0.47771436,0.52133381,-0.47771454,-0.52133375" Scale="32,32,32" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra2" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
    <Object Type="Decal" Layer="8.Level_Under" Id="{2C572D92-E676-4B56-9A8E-B0B71C27D84C}" Name="D_4204" Pos="2464.75,2750,8" Rotate="-0.49999994,-0.5,0.50000006,0.5" Scale="16,16,16" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra4" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
-   <Object Type="Group" Layer="8.Level_Under" Id="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Name="Visual_Perf02" Pos="2067,2134,-2" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Name="Visual_Perf02" Pos="2067,2134,-2" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="1">
     <Objects>
      <Object Type="Portal" Layer="8.Level_Under" Id="{9A9E285D-F13B-432A-ADA1-85BD40D5B0B1}" Name="Portal587" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="393,-833,2" ColorRGB="3996260" Height="35" DisplayFilled="0" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
       <Points>
@@ -533,12 +533,12 @@
        <Point Pos="122,0,-1.5258789e-005"/>
       </Points>
      </Object>
-     <Object Type="Portal" Layer="8.Level_Under" Id="{8A663EA2-6F6F-446E-A3FC-9ACB1F5807F1}" Name="Portal591" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-397,-835,5.9999847" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="3996260" Height="34" DisplayFilled="0" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="0" EntityClass="AreaShape">
+     <Object Type="Portal" Layer="8.Level_Under" Id="{8A663EA2-6F6F-446E-A3FC-9ACB1F5807F1}" Name="Portal591" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-401.125,-835,6" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="3996260" Height="34" DisplayFilled="0" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="0" EntityClass="AreaShape">
       <Points>
        <Point Pos="0,0,0"/>
-       <Point Pos="0,-7,1.5258789e-005"/>
-       <Point Pos="187,-8,0"/>
-       <Point Pos="187,0,0"/>
+       <Point Pos="0,-2.125,0"/>
+       <Point Pos="188.5,-3.125,0"/>
+       <Point Pos="188.5,-0.5,0"/>
       </Points>
      </Object>
      <Object Type="Portal" Layer="8.Level_Under" Id="{252DDD22-F285-4383-A263-DA635D98155D}" Name="Portal592" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-27,-398,6" ColorRGB="3996260" Height="34" DisplayFilled="0" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="0" EntityClass="AreaShape">
@@ -557,12 +557,12 @@
        <Point Pos="148.99988,-0.99975586,-1.5258789e-005"/>
       </Points>
      </Object>
-     <Object Type="Portal" Layer="8.Level_Under" Id="{F9BD529B-0A2D-44FF-A07C-4AEF4B3C952F}" Name="Portal594" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-214.25,-397.25,5.9999847" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="3996260" Height="34" DisplayFilled="0" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="0" EntityClass="AreaShape">
+     <Object Type="Portal" Layer="8.Level_Under" Id="{F9BD529B-0A2D-44FF-A07C-4AEF4B3C952F}" Name="Portal594" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-216.5,-398.5,6" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="3996260" Height="34" DisplayFilled="1" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="0" DoubleSide="0" EntityClass="AreaShape">
       <Points>
        <Point Pos="0,0,0"/>
-       <Point Pos="0,-6,0"/>
-       <Point Pos="193.00012,-6.0001221,1.5258789e-005"/>
-       <Point Pos="193.00012,-1.0001221,1.5258789e-005"/>
+       <Point Pos="0,-2.75,0"/>
+       <Point Pos="193,-2.75,0"/>
+       <Point Pos="193,-0.5,0"/>
       </Points>
      </Object>
      <Object Type="Portal" Layer="8.Level_Under" Id="{1E81B38F-CBF5-4C9F-97AA-E73C62E75C34}" Name="Portal595" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-215,-848,6" ColorRGB="3996260" Height="34" DisplayFilled="0" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
@@ -577,8 +577,8 @@
       <Points>
        <Point Pos="0,0,0"/>
        <Point Pos="0,-9,0"/>
-       <Point Pos="99,-9,0"/>
-       <Point Pos="99,-1,0"/>
+       <Point Pos="100.75,-9,0"/>
+       <Point Pos="101,-1,0"/>
       </Points>
      </Object>
      <Object Type="Portal" Layer="8.Level_Under" Id="{C36B7658-BDEF-4EA1-9F9D-A40B190415FF}" Name="Portal597" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-944,-826,6" ColorRGB="3996260" Height="34" DisplayFilled="0" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
@@ -753,8 +753,8 @@
       <Points>
        <Point Pos="0,0,0"/>
        <Point Pos="0,-438,0"/>
-       <Point Pos="-192,-438,0"/>
-       <Point Pos="-192,1,0"/>
+       <Point Pos="-191.25,-438,0"/>
+       <Point Pos="-191.5,1,0"/>
       </Points>
      </Object>
      <Object Type="VisArea" Layer="8.Level_Under" Id="{831A7237-28F4-4930-B131-0D443CF24C9F}" Name="VisArea447" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="566,-397,-2" ColorRGB="33023" Height="50" DisplayFilled="1" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" EntityClass="AreaShape">
@@ -762,23 +762,23 @@
        <Point Pos="0,0,0"/>
        <Point Pos="1,-441,0"/>
        <Point Pos="-590,-441,0"/>
-       <Point Pos="-589,0,0"/>
+       <Point Pos="-589,-0.5,0"/>
       </Points>
      </Object>
-     <Object Type="VisArea" Layer="8.Level_Under" Id="{8DB93BC3-73D4-4CDF-8A67-B27B170767AC}" Name="VisArea448" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-215,382,-2" ColorRGB="33023" Height="50" DisplayFilled="1" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" EntityClass="AreaShape">
+     <Object Type="VisArea" Layer="8.Level_Under" Id="{8DB93BC3-73D4-4CDF-8A67-B27B170767AC}" Name="VisArea448" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-217,382,-2" ColorRGB="33023" Height="50" DisplayFilled="1" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" EntityClass="AreaShape">
       <Points>
        <Point Pos="0,0,0"/>
-       <Point Pos="-4,-1415,0"/>
-       <Point Pos="-187,-1416,0"/>
-       <Point Pos="-183,1,0"/>
+       <Point Pos="-1.5,-1415,0"/>
+       <Point Pos="-185.25,-1416,0"/>
+       <Point Pos="-181.25,1,0"/>
       </Points>
      </Object>
-     <Object Type="VisArea" Layer="8.Level_Under" Id="{59B83720-D61E-42FD-B533-53692E4EC959}" Name="VisArea449" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-218,-593,-2" ColorRGB="33023" Height="50" DisplayFilled="1" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="100" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" EntityClass="AreaShape">
+     <Object Type="VisArea" Layer="8.Level_Under" Id="{59B83720-D61E-42FD-B533-53692E4EC959}" Name="VisArea449" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-217.5,-593,-2" ColorRGB="33023" Height="50" DisplayFilled="1" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="100" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" EntityClass="AreaShape">
       <Points>
        <Point Pos="0,0,0"/>
        <Point Pos="0,196,0"/>
-       <Point Pos="193,196,0"/>
-       <Point Pos="193,-1,0"/>
+       <Point Pos="192.5,195.5,0"/>
+       <Point Pos="192.5,-1,0"/>
       </Points>
      </Object>
      <Object Type="VisArea" Layer="8.Level_Under" Id="{FB917B09-0ED7-45E1-AD90-DB499F33214A}" Name="VisArea450" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="-947,-1034,-6" ColorRGB="33023" Height="55" DisplayFilled="1" AmbientColor="0.631373,0.713726,0.603922" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="100" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" EntityClass="AreaShape">
@@ -954,7 +954,7 @@
     </Objects>
    </Object>
    <Object Type="Decal" Layer="8.Level_Under" Id="{31AB54A3-A96B-4A6C-A4B9-9345ED0872C6}" Name="D_4216" Pos="2661.75,2359.625,8" Rotate="0.70710683,0.70710677,-9.9748007e-008,-9.9748007e-008" Scale="16,16,16" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra4" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
-   <Object Type="Group" Layer="8.Level_Under" Id="{669641AC-F179-429E-A172-4642A0F702E9}" Name="Outer" Pos="1447.625,2229.25,20" ColorRGB="65280" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/white_tiles" MergeGeom="0" Opened="1">
+   <Object Type="Group" Layer="8.Level_Under" Id="{669641AC-F179-429E-A172-4642A0F702E9}" Name="Outer" Pos="1447.625,2229.25,20" ColorRGB="65280" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/white_tiles" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="8.Level_Under" Id="{E25BF376-0328-4DC4-A2E7-8BF187459EB5}" Name="Wall1_1127" Parent="{669641AC-F179-429E-A172-4642A0F702E9}" Pos="-4,-1114,4" Rotate="0.70710671,0,0,-0.70710683" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/wall2" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>
@@ -2816,21 +2816,21 @@
    <Object Type="Entity" Layer="8.Level_Under" Id="{C9F118F5-CAEE-4553-8DF5-A73CDB8192E2}" Name="ReverbVolume2" Pos="1510,3074,33" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ReverbVolume">
     <Properties bEnabled="1" bFullEffectWhenInside="1" OuterRadius="2" reverbpresetReverbPreset="CarpetedHallway"/>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{F16D8FF7-DE30-49ED-ADCE-1C7F5ADEBC75}" Name="OilBath1" Pos="2822,2866.5,20" Rotate="-4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{F16D8FF7-DE30-49ED-ADCE-1C7F5ADEBC75}" Name="OilBath1" Pos="2822,2866.5,20" Rotate="-4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="1">
     <Objects>
-     <Object Type="Entity" Layer="8.Level_Under" Id="{1DADD080-FE49-4C4C-A609-55947DB939DE}" Name="FogVolume677" Parent="{F16D8FF7-DE30-49ED-ADCE-1C7F5ADEBC75}" Pos="-83,199.5,0" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="FogVolume">
+     <Object Type="Entity" Layer="8.Level_Under" Id="{1DADD080-FE49-4C4C-A609-55947DB939DE}" Name="FogVolume677" Parent="{F16D8FF7-DE30-49ED-ADCE-1C7F5ADEBC75}" Pos="-87,199.5,0" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="FogVolume">
       <Properties bActive="1" color_Color="0.12549,0.0392157,0.0588235" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="0.12" FallOffShift="-1" GlobalDensity="0.00125" fHDRDynamic="1" SoftEdges="10" bUseGlobalFogColor="0" VolumeType="1">
        <Size x="605" y="204" z="34"/>
       </Properties>
      </Object>
-     <Object Type="Entity" Layer="8.Level_Under" Id="{9C581074-ED8D-47B8-85B7-B964CDD72C09}" Name="FogVolume678" Parent="{F16D8FF7-DE30-49ED-ADCE-1C7F5ADEBC75}" Pos="83,-199.5,0" Rotate="1,0,0,3.7748954e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="FogVolume">
+     <Object Type="Entity" Layer="8.Level_Under" Id="{9C581074-ED8D-47B8-85B7-B964CDD72C09}" Name="FogVolume678" Parent="{F16D8FF7-DE30-49ED-ADCE-1C7F5ADEBC75}" Pos="71.375,-198,0" Rotate="1,0,0,3.7748954e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="FogVolume">
       <Properties bActive="1" color_Color="0.0941177,0.0313726,0.0431373" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="0.12" FallOffShift="-1" GlobalDensity="0.00125" fHDRDynamic="1" SoftEdges="10" bUseGlobalFogColor="0" VolumeType="1">
-       <Size x="545" y="190" z="34"/>
+       <Size x="560" y="190" z="34"/>
       </Properties>
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Name="Walls4" Pos="2036,2151,20.875" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Flags="4" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Name="Walls4" Pos="2036,2151,20.875" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="1">
     <Objects>
      <Object Type="Solid" Layer="8.Level_Under" Id="{FF70CE44-1C48-4A71-84BF-2E1471321AFF}" Name="Wall1_1190" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="792,-820.875,-22.5" Rotate="0.65328151,-0.27059808,0.27059808,0.65328145" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/floor" MatLayersMask="2" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>
@@ -3090,16 +3090,6 @@
        <Face p1="-1.9375528,-78.750168,4.5" p2="2.0624447,-78.750168,4.5" p3="2.0624447,-78.750168,-11.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-1.9374932,-60.625,11.375" p2="-1.9374932,-56.625,11.375" p3="2.0625067,-56.625,11.375" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="2.0625062,-56.625168,-11.625004" p2="-1.9374923,-56.625168,-11.625004" p3="-1.9374923,-60.62516,-11.625004" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-      </Brush>
-     </Object>
-     <Object Type="Solid" Layer="6.Center_Area" Id="{F2BE3B37-37FE-41ED-ABD1-C0C580B9CE64}" Name="Wall1_1218" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="41,-379.375,-3" Rotate="0.70710671,0,0,-0.70710683" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
-      <Brush>
-       <Face p1="-0.87499595,-36.5,8.5" p2="-0.87499595,-40.5,8.5" p3="-0.87499595,-40.5,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="2.3125784,146.49994,8.4999962" p2="-1.6874213,146.49994,8.4999962" p3="-1.6874213,146.49994,-7.5000038" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="0.93756497,-40.500057,8.5" p2="0.93756497,-36.500057,8.5" p3="0.93756497,-36.500057,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="-1.6874125,-146.12527,8.4999962" p2="2.3125861,-146.12527,8.4999962" p3="2.3125861,-146.12527,-7.5000038" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="-1.6874348,-40.500057,15.875" p2="-1.6874348,-36.500057,15.875" p3="2.3125648,-36.500057,15.875" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="2.3125651,-36.500172,-15.437508" p2="-1.6874342,-36.500172,-15.437508" p3="-1.6874342,-40.500164,-15.437508" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
      <Object Type="Solid" Layer="8.Level_Under" Id="{4929B0D4-B6F0-42AD-8F86-55761EA46154}" Name="Wall1_1219" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="862.99988,544.62512,-3" Rotate="8.146035e-008,0,0,1" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
@@ -3562,16 +3552,6 @@
        <Face p1="1.25,55.0625,-10.1875" p2="-2.75,55.0625,-10.1875" p3="-2.75,51.0625,-10.1875" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="8.Level_Under" Id="{B5F64678-8A6B-45E6-8CD6-F730EDF13D8C}" Name="Wall1_1287" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="-249,71,-2.875" Rotate="1,0,0,1.7634356e-008" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
-      <Brush>
-       <Face p1="-0.68747723,-362.625,8.5" p2="-0.68747723,-366.625,8.5" p3="-0.68747723,-366.625,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="0.99970108,163.37488,8.5" p2="-3.0002975,163.37488,8.5" p3="-3.0002975,163.37488,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="1.1250226,-366.625,8.5" p2="1.1250226,-362.625,8.5" p3="1.1250226,-362.625,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="98.000908,-163.75017,8.5" p2="102.00091,-163.75017,8.5" p3="102.00091,-163.75017,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="-2.9999771,-366.625,15.375" p2="-2.9999771,-362.625,15.375" p3="1.0000226,-362.625,15.375" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-       <Face p1="1.0000217,-362.62518,-15.375004" p2="-2.9999762,-362.62518,-15.375004" p3="-2.9999762,-366.62515,-15.375004" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
-      </Brush>
-     </Object>
      <Object Type="Solid" Layer="8.Level_Under" Id="{F7A36881-3E46-46FA-A003-35EA9DA2D4FA}" Name="Wall1_1288" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="271.875,-212.625,4.75" Rotate="-4.3711388e-008,0,0,1" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="746,2.7500038,9.25" p2="738,2.750006,9.25" p3="738,2.750006,-22.75" MatId="0" TexScale="2,2,0" TexShift="0.125,0.125,0" TexRotate="0"/>
@@ -3590,6 +3570,26 @@
        <Face p1="-1.5000246,-151.1875,8.5" p2="2.4999754,-151.1875,8.5" p3="2.4999754,-151.1875,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-1.5000029,11.8125,15.375" p2="-1.5000029,15.8125,15.375" p3="2.4999971,15.8125,15.375" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="2.4999971,15.8125,-15" p2="-1.5000029,15.8125,-15" p3="-1.5000029,11.8125,-15" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Solid" Layer="8.Level_Under" Id="{B5F64678-8A6B-45E6-8CD6-F730EDF13D8C}" Name="Wall1_1287" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="-249,71,-2.875" Rotate="1,0,0,1.7634356e-008" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-0.68747723,-362.625,8.5" p2="-0.68747723,-366.625,8.5" p3="-0.68747723,-366.625,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.99970108,163.37488,8.5" p2="-3.0002975,163.37488,8.5" p3="-3.0002975,163.37488,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="1.1250226,-366.625,8.5" p2="1.1250226,-362.625,8.5" p3="1.1250226,-362.625,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="98.000908,-163.75017,8.5" p2="102.00091,-163.75017,8.5" p3="102.00091,-163.75017,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-2.9999771,-366.625,15.375" p2="-2.9999771,-362.625,15.375" p3="1.0000226,-362.625,15.375" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="1.0000217,-362.62518,-15.375004" p2="-2.9999762,-362.62518,-15.375004" p3="-2.9999762,-366.62515,-15.375004" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Solid" Layer="6.Center_Area" Id="{F2BE3B37-37FE-41ED-ABD1-C0C580B9CE64}" Name="Wall1_1218" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="41.5,-379.375,-3" Rotate="0.70710671,0,0,-0.70710683" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-0.87499595,-36.5,8.5" p2="-0.87499595,-40.5,8.5" p3="-0.87499595,-40.5,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="2.3125784,146.49994,8.4999962" p2="-1.6874213,146.49994,8.4999962" p3="-1.6874213,146.49994,-7.5000038" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.93756497,-40.500057,8.5" p2="0.93756497,-36.500057,8.5" p3="0.93756497,-36.500057,-7.5" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-1.6874125,-146.12527,8.4999962" p2="2.3125861,-146.12527,8.4999962" p3="2.3125861,-146.12527,-7.5000038" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-1.6874348,-40.500057,15.875" p2="-1.6874348,-36.500057,15.875" p3="2.3125648,-36.500057,15.875" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="2.3125651,-36.500172,-15.437508" p2="-1.6874342,-36.500172,-15.437508" p3="-1.6874342,-40.500164,-15.437508" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
     </Objects>
