@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="7.Ceilings_Under" GUID="{50AFEA75-6849-4DFE-885D-9906401DEC8F}" Hidden="0" Frozen="0" External="1" Exportable="1">
+ <Layer Name="7.Ceilings_Under" GUID="{50AFEA75-6849-4DFE-885D-9906401DEC8F}" Hidden="0" Frozen="1" External="1" Exportable="1">
   <LayerObjects>
    <Object Type="Group" Layer="7.Ceilings_Under" Id="{B0732F23-4381-46CA-A19A-38FD3C5FB364}" Name="L2" Pos="1941.625,2195.25,54.625" Rotate="-4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
@@ -899,7 +899,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="7.Ceilings_Under" Id="{9195CDB9-78EF-494C-BD37-BB7DBE7E57B2}" Name="Ceilings1" Pos="2010,2169,48" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="1">
+   <Object Type="Group" Layer="7.Ceilings_Under" Id="{9195CDB9-78EF-494C-BD37-BB7DBE7E57B2}" Name="Ceilings1" Pos="2010,2169,48" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="7.Ceilings_Under" Id="{2CAA4B51-6B4E-469D-898E-4D3D7A1BAB41}" Name="Solid5056" Parent="{9195CDB9-78EF-494C-BD37-BB7DBE7E57B2}" Pos="213,-583,-3" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/ceiling1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>

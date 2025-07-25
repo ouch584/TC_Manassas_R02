@@ -436,7 +436,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="4.Level_Top" Id="{DD2E5518-C03A-458C-BB8B-91CA24843A51}" Name="Visual_Perf01" Pos="1917,2147,49" ColorRGB="65280" MergeGeom="0" Opened="1">
+   <Object Type="Group" Layer="4.Level_Top" Id="{DD2E5518-C03A-458C-BB8B-91CA24843A51}" Name="Visual_Perf01" Pos="1917,2147,49" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Portal" Layer="4.Level_Top" Id="{3485EDFB-29D1-4FE2-8EEC-162B89BDA8DE}" Name="Portal551" Parent="{DD2E5518-C03A-458C-BB8B-91CA24843A51}" Pos="393,-833,2" ColorRGB="3996260" Height="34" DisplayFilled="0" AmbientColor="0.54902,0.603922,0.4" AffectedBySun="0" IgnoreSkyColor="0" ViewDistRatio="100" SkyOnly="0" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
       <Points>
@@ -1019,7 +1019,7 @@
     </Objects>
    </Object>
    <Object Type="Decal" Layer="4.Level_Top" Id="{B934802B-B2C5-4494-B9DB-65A20A377D0D}" Name="D_4218" Pos="2488.25,1530.875,46.125" Rotate="0.47771457,0.52133375,0.47771433,0.52133381" Scale="32,31.999998,32" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra2" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
-   <Object Type="Group" Layer="4.Level_Top" Id="{F462492C-D0E4-43DC-B358-FE1ABD85A708}" Name="TilesRewerb2" Pos="2917,2681,56" ColorRGB="65280" MergeGeom="0" Opened="1">
+   <Object Type="Group" Layer="4.Level_Top" Id="{F462492C-D0E4-43DC-B358-FE1ABD85A708}" Name="TilesRewerb2" Pos="2917,2681,56" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="AreaBox" Layer="4.Level_Top" Id="{67C0D8B8-112A-40AF-8DF5-C73841613AD6}" Name="AreaBox9" Parent="{F462492C-D0E4-43DC-B358-FE1ABD85A708}" Pos="-4,-4,-5" ColorRGB="16711680" MatLayersMask="0" AreaId="-1" FadeInZone="40" Width="194" Length="600" Height="18" GroupId="0" Priority="0" ObstructRoof="0" ObstructFloor="0" Filled="0" EntityClass="AreaBox" BoxMin="-97,-300,0" BoxMax="97,300,18">
       <Entities>
@@ -1035,7 +1035,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="4.Level_Top" Id="{86875B2D-C427-4B1B-9BB1-457B16DFC4DE}" Name="TilesRewerb" Pos="1952,3112,56" ColorRGB="65280" MergeGeom="0" Opened="1">
+   <Object Type="Group" Layer="4.Level_Top" Id="{86875B2D-C427-4B1B-9BB1-457B16DFC4DE}" Name="TilesRewerb" Pos="1952,3112,56" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="AreaBox" Layer="4.Level_Top" Id="{9D673A30-1206-4C14-A595-349CFEC3EFBB}" Name="AreaBox7" Parent="{86875B2D-C427-4B1B-9BB1-457B16DFC4DE}" Pos="-4,-4,-5" ColorRGB="16711680" MatLayersMask="0" AreaId="-1" FadeInZone="30" Width="245" Length="104" Height="18" GroupId="0" Priority="0" ObstructRoof="0" ObstructFloor="0" Filled="0" EntityClass="AreaBox" BoxMin="-122.5,-52,0" BoxMax="122.5,52,18">
       <Entities>
@@ -1126,7 +1126,7 @@
      <Style fCoronaDistIntensityFactor="2" fCoronaDistSizeFactor="2" fCoronaScale="2" nLightStyle="0"/>
     </Properties>
    </Object>
-   <Object Type="Group" Layer="4.Level_Top" Id="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Name="Walls3" Pos="1948,2130.375,69" ColorRGB="65280" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="1">
+   <Object Type="Group" Layer="4.Level_Top" Id="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Name="Walls3" Pos="1948,2130.375,69" ColorRGB="65280" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="4.Level_Top" Id="{DD6D6BB5-7E4C-4681-A27B-092F94431467}" Name="Wall1_1092" Parent="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Pos="152,-820.375,4" Rotate="0.70710689,0,0,0.70710671" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>
@@ -3346,7 +3346,7 @@
    <Object Type="Decal" Layer="4.Level_Top" Id="{DF4C72E1-D233-42E0-85F1-7402A1F2263B}" Name="D_4238" Pos="2063.375,2810.125,54.125" Rotate="-0.5,-0.49999994,0.50000006,0.5" Scale="15.99999,15.999989,15.999979" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra4" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
    <Object Type="Decal" Layer="4.Level_Top" Id="{C84E76E4-D29D-48E9-B9DF-C8690DE461FF}" Name="D_4220" Pos="1418.75,2979.375,-3.25" Rotate="0.030843752,-0.030843547,0.70643377,0.70643377" Scale="32.000008,32.000019,31.999985" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra5" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
    <Object Type="Decal" Layer="4.Level_Top" Id="{281F0CEC-D8D1-4410-A59A-8F9D52A1AB9B}" Name="D_4241" Pos="1183.625,1781.75,54.125" Rotate="0.50000012,0.49999997,0.49999991,0.49999991" Scale="15.999989,15.999985,15.999976" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra4" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
-   <Object Type="Group" Layer="4.Level_Top" Id="{9BE3FBF7-D9A4-4EE8-87E3-DEC061B4C59A}" Name="HighWallsGroup" Pos="1797,2005,70" ColorRGB="65280" Flags="4" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="4.Level_Top" Id="{9BE3FBF7-D9A4-4EE8-87E3-DEC061B4C59A}" Name="HighWallsGroup" Pos="1797,2005,70" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="4.Level_Top" Id="{55830430-1100-4F67-B078-81FF45F4C6CB}" Name="Wall1_4" Parent="{9BE3FBF7-D9A4-4EE8-87E3-DEC061B4C59A}" Pos="-826,-790,0" Scale="2,2,2" ColorRGB="16776960" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/white_tiles" MatLayersMask="0" RndFlags="1064" ViewDistRatio="100" LMQuality="1">
       <Brush>

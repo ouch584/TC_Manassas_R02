@@ -4,11 +4,10 @@ Big Thanks to Asgard, Sabitsuki, OptimusShr, GuardianDragon
 
 1. Update 'sources' with updated flographs and pics where applicable
 2. playtest: are teleports still prone to breakage (why?)
-3. Make team discrimination via playerID work in "Take me home" area
-4. Fix that one vanir visarea and portal issue
-5. There are more bodies protruding the top level - find them!
-6. Make one (two?) more belt(s) around each dropship to contain misses?
-7. Try address seams on the white liquid zone
-8. K-F core front coil on upper coil disapears on certain angles
-9. Try occlude fog areas that shine thru as black patches
-10. Make more navigation clues across the map
+3. Make one (two?) more belt(s) around each dropship to contain misses?
+4. Make team discrimination via playerID work in "Take me home" area
+5. Fix that one vanir visarea and portal issue
+6. Try address seams on the white liquid zone
+7. K-F core front coil on upper coil disapears on certain angles
+8. Try occlude fog areas that shine thru as black patches
+9. Make more navigation clues across the map
