@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="4096"
+   viewBox="0 0 64 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="Scroll.svg"
+   inkscape:export-filename="Scroll.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="2"
+     inkscape:cx="294.25"
+     inkscape:cy="404.25"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="110.38827"
+       y="68.813469"
+       width="213.94854"
+       height="1660.1114"
+       id="rect1" />
+    <filter
+       inkscape:label="Emergence"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       id="filter12"
+       x="-0.06984968"
+       y="-0.0095188261"
+       width="1.153763"
+       height="1.0209542">
+      <feGaussianBlur
+         result="result6"
+         stdDeviation="3"
+         in="SourceGraphic"
+         id="feGaussianBlur12" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="result7"
+         in="SourceGraphic"
+         id="feColorMatrix12" />
+      <feComposite
+         operator="in"
+         in="result6"
+         in2="result7"
+         id="feComposite12"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix14" />
+      <feColorMatrix
+         id="feColorMatrix15"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix16"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9" />
+      <feComposite
+         id="feComposite16"
+         in2="result9"
+         in="fbSourceGraphic"
+         operator="in"
+         result="result4" />
+      <feFlood
+         id="feFlood16"
+         result="result2"
+         flood-color="rgb(0,0,0)" />
+      <feComposite
+         id="feComposite17"
+         in2="result9"
+         operator="in"
+         result="result10" />
+      <feComposite
+         id="feComposite18"
+         in2="result4"
+         operator="atop" />
+      <feGaussianBlur
+         id="feGaussianBlur18"
+         stdDeviation="3"
+         result="result8" />
+      <feOffset
+         id="feOffset18"
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8" />
+      <feFlood
+         id="feFlood18"
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5" />
+      <feMerge
+         id="feMerge18"
+         result="result6">
+        <feMergeNode
+           id="feMergeNode18"
+           in="result5" />
+        <feMergeNode
+           id="feMergeNode19"
+           in="result3" />
+        <feMergeNode
+           id="feMergeNode20"
+           in="result4" />
+      </feMerge>
+      <feComposite
+         id="feComposite20"
+         in2="fbSourceGraphic"
+         operator="in"
+         result="result7" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.948529,-18.392381)">
+    <rect
+       style="fill:#22280b;stroke:none;stroke-width:0.23622;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       id="rect3"
+       width="64"
+       height="512"
+       x="28.94853"
+       y="18.392382" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,2.9972118,47.889103)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.1181px;line-height:1.35;font-family:Oxanium;-inkscape-font-specification:'Oxanium Bold';font-variant-ligatures:none;text-align:center;white-space:pre;shape-inside:url(#rect1);shape-padding:0;display:inline;fill:#aad400;stroke:#ccff00;stroke-width:1.00016;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.553336;paint-order:stroke markers fill;filter:url(#filter12)"
+       x="0"
+       y="0"><tspan
+         x="140.32047"
+         y="83.401467"
+         id="tspan2">[COMSTAR SYSTEMS]
+</tspan><tspan
+         x="158.14472"
+         y="103.81091"
+         id="tspan3">private message
+</tspan><tspan
+         x="131.24958"
+         y="124.22035"
+         id="tspan4">[TRANSMISSION BEGIN]
+</tspan><tspan
+         x="122.75324"
+         y="144.62978"
+         id="tspan5">The last voyage of the SLS </tspan><tspan
+         x="182.0918"
+         y="165.03922"
+         id="tspan6">Manassas
+</tspan><tspan
+         x="217.3623"
+         y="185.44866"
+         id="tspan7">
+</tspan><tspan
+         x="125.12684"
+         y="205.8581"
+         id="tspan8">The year was 2108, Bache </tspan><tspan
+         x="141.37875"
+         y="226.26754"
+         id="tspan9">had returned but TAS </tspan><tspan
+         x="119.14006"
+         y="246.67698"
+         id="tspan10">Pathfinder wasn't launched </tspan><tspan
+         x="199.25082"
+         y="267.08642"
+         id="tspan11">yet...
+</tspan><tspan
+         x="128.02949"
+         y="287.49586"
+         id="tspan12">Little did we know it was </tspan><tspan
+         x="154.39543"
+         y="307.90528"
+         id="tspan13">already too late...
+</tspan><tspan
+         x="112.68461"
+         y="328.31471"
+         id="tspan14">Each and every K-F jump tore </tspan><tspan
+         x="137.16079"
+         y="348.72413"
+         id="tspan15">deeper cracks into the </tspan><tspan
+         x="117.47703"
+         y="369.13355"
+         id="tspan16">delicate fabric of existence. </tspan><tspan
+         x="112.54854"
+         y="389.54298"
+         id="tspan17">The fabric of space/time that </tspan><tspan
+         x="124.74887"
+         y="409.9524"
+         id="tspan18">shapes all things that are, </tspan><tspan
+         x="145.89907"
+         y="430.36182"
+         id="tspan19">were and will come.
+</tspan><tspan
+         x="119.56333"
+         y="450.77125"
+         id="tspan20">The things that were yet to </tspan><tspan
+         x="191.43476"
+         y="471.18067"
+         id="tspan21">come...
+</tspan><tspan
+         x="217.3623"
+         y="491.5901"
+         id="tspan22">
+</tspan><tspan
+         x="148.86219"
+         y="511.99952"
+         id="tspan23">And come they did.
+</tspan><tspan
+         x="217.3623"
+         y="532.40897"
+         id="tspan24">
+</tspan><tspan
+         x="111.94381"
+         y="552.8184"
+         id="tspan25">Unaware of the gravity of the </tspan><tspan
+         x="118.98884"
+         y="573.22782"
+         id="tspan26">situation and the cost to be </tspan><tspan
+         x="114.33249"
+         y="593.63725"
+         id="tspan27">paid, humanity went to town </tspan><tspan
+         x="113.09281"
+         y="614.04667"
+         id="tspan28">with traversing the boundary </tspan><tspan
+         x="118.88303"
+         y="634.45609"
+         id="tspan29">that was never meant to be </tspan><tspan
+         x="122.01247"
+         y="654.86552"
+         id="tspan30">passed, let alone trampled </tspan><tspan
+         x="111.74727"
+         y="675.27494"
+         id="tspan31">upon so causal and so often...
+</tspan><tspan
+         x="217.3623"
+         y="695.68436"
+         id="tspan32">
+</tspan><tspan
+         x="127.13751"
+         y="716.09379"
+         id="tspan33">Over the years, centuries </tspan><tspan
+         x="128.87608"
+         y="736.50321"
+         id="tspan34">even, the cracks became </tspan><tspan
+         x="132.48933"
+         y="756.91264"
+         id="tspan35">tears, the tears bacame </tspan><tspan
+         x="131.34032"
+         y="777.32206"
+         id="tspan36">voids, the voids became </tspan><tspan
+         x="189.49964"
+         y="797.73148"
+         id="tspan37">deeps...
+</tspan><tspan
+         x="217.3623"
+         y="818.14091"
+         id="tspan38">
+</tspan><tspan
+         x="127.8481"
+         y="838.55033"
+         id="tspan39">It is 2784, Captain James </tspan><tspan
+         x="111.77753"
+         y="858.95976"
+         id="tspan40">Cromwell was so happy when </tspan><tspan
+         x="110.53782"
+         y="879.36918"
+         id="tspan41">we set course the 2nd time to </tspan><tspan
+         x="186.0981"
+         y="899.7786"
+         id="tspan42">Swartz...
+</tspan><tspan
+         x="217.3623"
+         y="920.18803"
+         id="tspan43">
+</tspan><tspan
+         x="142.83011"
+         y="940.59745"
+         id="tspan44">All systems nominal, </tspan><tspan
+         x="112.72994"
+         y="961.00687"
+         id="tspan45">patchwork was looking good, </tspan><tspan
+         x="121.1356"
+         y="981.4163"
+         id="tspan46">the repairs seemed to hold </tspan><tspan
+         x="127.40964"
+         y="1001.8257"
+         id="tspan47">well, little did we know...
+</tspan><tspan
+         x="217.3623"
+         y="1022.2351"
+         id="tspan48">
+</tspan><tspan
+         x="117.62827"
+         y="1042.6446"
+         id="tspan49">We only learned it's 3058 as </tspan><tspan
+         x="119.4424"
+         y="1063.0541"
+         id="tspan50">the last of our turrets went </tspan><tspan
+         x="137.49344"
+         y="1083.4635"
+         id="tspan51">silent and naval lasers </tspan><tspan
+         x="119.82036"
+         y="1103.8729"
+         id="tspan52">started to ravage the hull...
+</tspan><tspan
+         x="217.3623"
+         y="1124.2823"
+         id="tspan53">
+</tspan><tspan
+         x="150.79733"
+         y="1144.6918"
+         id="tspan54">The Smoke Jaguar </tspan><tspan
+         x="128.43767"
+         y="1165.1012"
+         id="tspan55">elementals were already </tspan><tspan
+         x="117.71893"
+         y="1185.5106"
+         id="tspan56">boarding sections as part of </tspan><tspan
+         x="115.22444"
+         y="1205.92"
+         id="tspan57">the crew set the K-F drive to </tspan><tspan
+         x="131.92995"
+         y="1226.3294"
+         id="tspan58">an emergency jump at a </tspan><tspan
+         x="125.62572"
+         y="1246.7389"
+         id="tspan59">frantically picked random </tspan><tspan
+         x="181.86501"
+         y="1267.1483"
+         id="tspan60">location...
+</tspan><tspan
+         x="217.3623"
+         y="1287.5577"
+         id="tspan61">
+</tspan><tspan
+         x="110.71927"
+         y="1307.9671"
+         id="tspan62">I was one of that partial crew, </tspan><tspan
+         x="115.02791"
+         y="1328.3766"
+         id="tspan63">the place where you stand is </tspan><tspan
+         x="144.93152"
+         y="1348.786"
+         id="tspan64">exactly that random </tspan><tspan
+         x="181.86501"
+         y="1369.1954"
+         id="tspan65">location...
+</tspan><tspan
+         x="217.3623"
+         y="1389.6048"
+         id="tspan66">
+</tspan><tspan
+         x="112.62413"
+         y="1410.0143"
+         id="tspan67">What happened to the Ship is </tspan><tspan
+         x="123.58477"
+         y="1430.4237"
+         id="tspan68">still unclear to us, how we </tspan><tspan
+         x="119.30632"
+         y="1450.8331"
+         id="tspan69">lived thru it even more so...
+</tspan><tspan
+         x="217.3623"
+         y="1471.2425"
+         id="tspan70">
+</tspan><tspan
+         x="127.01656"
+         y="1491.652"
+         id="tspan71">But the horror visions we </tspan><tspan
+         x="121.74037"
+         y="1512.0614"
+         id="tspan72">witnessed in the stasis are </tspan><tspan
+         x="128.43767"
+         y="1532.4708"
+         id="tspan73">not! Humanity must stop </tspan><tspan
+         x="119.51802"
+         y="1552.8802"
+         id="tspan74">hyper jumps or we will all...
+</tspan><tspan
+         x="138.43068"
+         y="1573.2897"
+         id="tspan75">[TRANSMISSION END]
+</tspan><tspan
+         x="167.26095"
+         y="1593.6991"
+         id="tspan76">Pay your bills,
+</tspan><tspan
+         x="110.9007"
+         y="1614.1085"
+         id="tspan77">Always listening, yours trully:
+</tspan><tspan
+         x="140.32047"
+         y="1634.5179"
+         id="tspan78">[COMSTAR SYSTEMS]
+</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="128" Shader="Illum" GenMask="268435584" SurfaceType="mat_metal_smooth" Diffuse="0.47058827,0.47058827,0.47058827" Specular="0.65490198,0.65490198,0.65490198" Emissive="0,0,0" Shininess="38.450001" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/props/electrical_boxes/ecabinet6_side_plain.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/aircraftcarrier/props/electrical_boxes/ecabinet6_side_notrim_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/library/architecture/aircraftcarrier/textures/reflections3.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.18000001" FresnelScale="2.05" FresnelBias="0" AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="monitorframe" MtlFlags="128" Shader="Illum" GenMask="268435488" SurfaceType="mat_metal_smooth" Diffuse="0.50980395,0.50980395,0.50980395" Specular="0.38431376,0.38431376,0.38431376" Emissive="0,0,0" Shininess="31.875" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/props/monitors/monitor_medium2.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/aircraftcarrier/props/monitors/monitor_medium2_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Screen1_material" MtlFlags="132" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_unbreakable" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/textures/screens/screen7.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Screen2_material" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_unbreakable" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0,0,0" Emissive="0.18823531,0.36078432,0.38823533" Opacity="1" GlowAmount="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/Props/all/HPGterminal/Scroll.dds">
+     <TexMod TileV="0.125" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.079999998" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Detail" File="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/Props/all/HPGterminal/Scroll_fx.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/library/architecture/aircraftcarrier/textures/screens/line.dds">
+     <TexMod TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.15000001" TexMod_VOscillatorAmplitude="0.40000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Screen3_material" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_unbreakable" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/textures/screens/atc_map2.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_plastic" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/textures/screens/screen5.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="trim" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_plastic" Diffuse="0.098039225,0.098039225,0.098039225" Specular="0.35686275,0.35686275,0.35686275" Emissive="0,0,0" Shininess="27.200001" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/textures/trims/cleanwhitemetal.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/aircraftcarrier/textures/trims/noisytrim_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_concrete.dds">
+     <TexMod TileU="0.43000001" TileV="0.090000004"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material_001_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_plastic" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/objects_mwll/Architecture/Props/Comstar/TessaPony/PCB.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Objects/objects_mwll/Architecture/Props/Comstar/TessaPony/PCB_SPEC.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="Objects/objects_mwll/Architecture/Props/Comstar/TessaPony/PCB_NM.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
