@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160mm"
+   height="40mm"
+   viewBox="0 0 160 40"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="striped.svg"
+   inkscape:export-filename="striped.png"
+   inkscape:export-xdpi="40.46558"
+   inkscape:export-ydpi="40.46558"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.8190104"
+     inkscape:cx="302.36221"
+     inkscape:cy="75.590552"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-24.655172,-74.344826)">
+    <rect
+       style="fill:#ffdd55;stroke:none;stroke-width:0.560123;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.553336;paint-order:stroke markers fill"
+       id="rect1"
+       width="160"
+       height="40"
+       x="24.655172"
+       y="74.344826" />
+    <rect
+       style="fill:#333333;stroke:none;stroke-width:0.666818;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.553336;paint-order:stroke markers fill"
+       id="rect2"
+       width="39.828327"
+       height="56.690063"
+       x="139.49074"
+       y="105.36531"
+       transform="matrix(1,0,-0.70861928,0.70559104,0,0)" />
+    <rect
+       style="fill:#333333;stroke:none;stroke-width:0.666818;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.553336;paint-order:stroke markers fill"
+       id="rect4"
+       width="39.828327"
+       height="56.690063"
+       x="219.49074"
+       y="105.36532"
+       transform="matrix(1,0,-0.70861928,0.70559104,0,0)" />
+  </g>
+</svg>

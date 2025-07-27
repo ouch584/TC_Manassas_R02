@@ -1,0 +1,13 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Material_material" MtlFlags="128" Shader="Illum" GenMask="268435488" SurfaceType="mat_plastic_soft" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.29411766,0.29411766,0.29411766" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/striped.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

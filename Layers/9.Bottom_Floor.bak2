@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="9.Bottom_Floor" GUID="{387C9685-0AB6-4177-9B3C-42D5EF2860C2}" Hidden="0" Frozen="0" External="1" Exportable="1">
+ <Layer Name="9.Bottom_Floor" GUID="{387C9685-0AB6-4177-9B3C-42D5EF2860C2}" Hidden="0" Frozen="1" External="1" Exportable="1">
   <LayerObjects>
    <Object Type="Group" Layer="9.Bottom_Floor" Id="{90CC4834-7804-4F0A-88F1-A62E7EB3E3A6}" Name="Bottom" Pos="2002,2169,-3" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
