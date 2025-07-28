@@ -10,4 +10,3 @@ Big Thanks to Asgard, Sabitsuki, OptimusShr, GuardianDragon
 6. Try address seams on the white liquid zone
 7. K-F core front coil on upper coil disapears on certain angles
 8. Try occlude fog areas that shine thru as black patches
-9. Make more navigation clues across the map
