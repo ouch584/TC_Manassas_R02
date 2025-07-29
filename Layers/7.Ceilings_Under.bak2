@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="7.Ceilings_Under" GUID="{50AFEA75-6849-4DFE-885D-9906401DEC8F}" Hidden="0" Frozen="1" External="1" Exportable="1">
+ <Layer Name="7.Ceilings_Under" GUID="{50AFEA75-6849-4DFE-885D-9906401DEC8F}" Hidden="0" Frozen="0" External="1" Exportable="1">
   <LayerObjects>
    <Object Type="Group" Layer="7.Ceilings_Under" Id="{B0732F23-4381-46CA-A19A-38FD3C5FB364}" Name="L2" Pos="1941.625,2195.25,54.625" Rotate="-4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="1.K-F_Jum_Drive_Outside" GUID="{87961307-E0B1-4C87-8AD7-28F87CEE3E43}" Hidden="0" Frozen="1" External="1" Exportable="1">
+ <Layer Name="1.K-F_Jum_Drive_Outside" GUID="{87961307-E0B1-4C87-8AD7-28F87CEE3E43}" Hidden="0" Frozen="0" External="1" Exportable="1">
   <LayerObjects>
    <Object Type="Brush" Layer="1.K-F_Jum_Drive_Outside" Id="{4C679A00-D7D3-42AF-9EF8-F90047096A49}" Name="river_tree_b_broken2" Pos="2108,2024,164.63103" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\natural\trees\river_tree\river_tree_b_broken.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="1" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="1" RndFlags="2098216"/>
    <Object Type="Brush" Layer="1.K-F_Jum_Drive_Outside" Id="{0FE8A803-61EC-495E-AF24-E59FD2E9CCBC}" Name="river_tree_d12" Pos="2249,2172.5,161.70537" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\natural\trees\river_tree\river_tree_d.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="1" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="1" RndFlags="2098216"/>
