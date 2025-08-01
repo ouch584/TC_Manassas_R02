@@ -1,7 +1,7 @@
 <ObjectLayer>
  <Layer Name="2.Dropships" GUID="{1CD9180F-7592-4BA4-A435-4504D73F8290}" Hidden="0" Frozen="0" External="1" Exportable="1">
   <LayerObjects>
-   <Object Type="Group" Layer="2.Dropships" Id="{A5FAE903-DE57-44B3-9AFA-125AE03E8B69}" Name="Aurora_HQ" Pos="2872.5,2093.125,185" Rotate="0.64278764,0,0,-0.76604444" ColorRGB="65280" MergeGeom="0" Opened="1">
+   <Object Type="Group" Layer="2.Dropships" Id="{A5FAE903-DE57-44B3-9AFA-125AE03E8B69}" Name="Aurora_HQ" Pos="2872.5,2093.125,185" Rotate="0.64278764,0,0,-0.76604444" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Group" Layer="2.Dropships" Id="{CB866E5A-1F3A-42F2-B102-4203175D1B21}" Name="Aurara_Cargo_Modules_Factory" Parent="{A5FAE903-DE57-44B3-9AFA-125AE03E8B69}" Pos="6.6247559,-4.125,3.5" ColorRGB="65280" MergeGeom="0" Opened="0">
       <Objects>

@@ -122,7 +122,7 @@
     </Properties>
    </Object>
    <Object Type="Decal" Layer="6.Center_Area" Id="{E38E93B0-13F1-43DA-8529-326BAAF58F68}" Name="D_4230" Pos="2226.7864,2527.1802,34.623909" Rotate="0.70710683,0.70710671,-5.7601156e-008,2.669254e-008" Scale="16.000011,15.999998,15.999995" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra7" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="65536"/>
-   <Object Type="VisArea" Layer="6.Center_Area" Id="{2DE548B9-784B-4ADB-91D3-C61C7812F85C}" Name="VisArea428" Pos="1699.5,1753.25,-22" ColorRGB="33023" Height="130" DisplayFilled="1" AmbientColor="0.376471,0.470588,0.282353" AffectedBySun="0" IgnoreSkyColor="0" ViewDistRatio="100" SkyOnly="0" MergeBrushes="0" OceanIsVisible="0" EntityClass="AreaShape">
+   <Object Type="VisArea" Layer="6.Center_Area" Id="{2DE548B9-784B-4ADB-91D3-C61C7812F85C}" Name="VisArea428" Pos="1699.5,1753.25,-222" ColorRGB="33023" Height="130" DisplayFilled="1" AmbientColor="0.376471,0.470588,0.282353" AffectedBySun="0" IgnoreSkyColor="0" ViewDistRatio="100" SkyOnly="0" MergeBrushes="0" OceanIsVisible="0" EntityClass="AreaShape">
     <Points>
      <Point Pos="0,0,0"/>
      <Point Pos="0,776.5,0"/>

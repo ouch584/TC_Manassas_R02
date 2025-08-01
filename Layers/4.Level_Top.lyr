@@ -8,7 +8,7 @@
     </Objects>
    </Object>
    <Object Type="Decal" Layer="4.Level_Top" Id="{580B7805-5B50-4C51-B3A0-EEF3FF0412AA}" Name="D_4233" Pos="2488.125,2583.75,54.125" Rotate="0.5,0.50000012,0.49999988,0.5" Scale="15.999991,15.99999,15.999981" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra3" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
-   <Object Type="Group" Layer="4.Level_Top" Id="{5F213512-F2E7-4C65-90E3-8B60E8B56434}" Name="EA_Zone" Pos="2391,2430,67" ColorRGB="65280" Flags="4" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="4.Level_Top" Id="{5F213512-F2E7-4C65-90E3-8B60E8B56434}" Name="EA_Zone" Pos="2391,2430,67" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="4.Level_Top" Id="{6D4E7269-F9C1-4F76-B3B2-75FC4A185DA9}" Name="Solid5079" Parent="{5F213512-F2E7-4C65-90E3-8B60E8B56434}" Pos="-66,-196,-8" Rotate="0.27781582,0.88111961,0.11507522,0.36497167" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>
@@ -362,7 +362,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="4.Level_Top" Id="{08184116-50C6-446D-9E71-708C2FB5E603}" Name="SZ01" Pos="2656,1648,61" ColorRGB="65280" Flags="4" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="4.Level_Top" Id="{08184116-50C6-446D-9E71-708C2FB5E603}" Name="SZ01" Pos="2656,1648,61" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="4.Level_Top" Id="{D6DB17B5-4B87-4449-9759-0A407FC8434F}" Name="Solid16" Parent="{08184116-50C6-446D-9E71-708C2FB5E603}" Pos="34,-16,-1" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/br1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>
@@ -1138,7 +1138,7 @@
    <Object Type="Entity" Layer="4.Level_Top" Id="{1AC2A37D-2142-4A19-A008-924603394910}" Name="ParticleEffect1651" Pos="1118.25,2107.5,52.001911" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
     <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="2" ParticleEffect="smoke_and_fire.console_smoke.electrical" bPrime="1" PulsePeriod="0" Scale="2" soclasses_SmartObjectClass="" SpeedScale="0.25"/>
    </Object>
-   <Object Type="Group" Layer="4.Level_Top" Id="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Name="Walls3" Pos="1948,2130.375,69" ColorRGB="65280" Flags="4" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="4.Level_Top" Id="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Name="Walls3" Pos="1948,2130.375,69" ColorRGB="65280" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="4.Level_Top" Id="{DD6D6BB5-7E4C-4681-A27B-092F94431467}" Name="Wall1_1092" Parent="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Pos="152,-820.375,4" Rotate="0.70710689,0,0,0.70710671" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>

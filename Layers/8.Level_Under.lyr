@@ -938,7 +938,7 @@
      <Entity Id="{4D95F617-5650-473C-8098-51D4702640D0}"/>
     </Entities>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{6F11D594-5449-4A1A-A7A3-06B547F3C4AB}" Name="3Gorges1" Pos="1072,1602,14" ColorRGB="65280" Flags="4" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{6F11D594-5449-4A1A-A7A3-06B547F3C4AB}" Name="3Gorges1" Pos="1072,1602,14" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Entity" Layer="8.Level_Under" Id="{43B238D3-7976-4526-9EF3-250F412CBF53}" Name="FogVolume669" Parent="{6F11D594-5449-4A1A-A7A3-06B547F3C4AB}" Pos="-0.125,0,-1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="FogVolume">
       <Properties bActive="1" color_Color="1,1,1" FallOffDirLati="-90" FallOffDirLong="0" FallOffScale="0.15" FallOffShift="-16" GlobalDensity="0.25" fHDRDynamic="0" SoftEdges="1" bUseGlobalFogColor="0" VolumeType="1">
@@ -1208,7 +1208,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{F542DCB4-CBD2-419E-BF5A-E18A61F6588E}" Name="EA_Zone1" Pos="1593,1853,19.75" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Flags="4" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{F542DCB4-CBD2-419E-BF5A-E18A61F6588E}" Name="EA_Zone1" Pos="1593,1853,19.75" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="8.Level_Under" Id="{4969247F-96A6-49E5-9D0C-E6FBAC3E3D8F}" Name="Solid5116" Parent="{F542DCB4-CBD2-419E-BF5A-E18A61F6588E}" Pos="-66,-196.00012,-8" Rotate="0.27781582,0.88111961,0.11507522,0.36497167" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>
@@ -2866,7 +2866,7 @@
      <Point Pos="1116,1,-0.099998474" Back="1007.3334,0.65817583,-0.099998474" Forw="1116,1,-0.099998474" Angle="0" Width="0" IsDefaultWidth="1"/>
     </Points>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{6CCE2EE3-AAF6-462F-BEE5-4DD8ED15644B}" Name="TilesRewerb3" Pos="1076,1608,9" ColorRGB="65280" Flags="4" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{6CCE2EE3-AAF6-462F-BEE5-4DD8ED15644B}" Name="TilesRewerb3" Pos="1076,1608,9" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="AreaBox" Layer="8.Level_Under" Id="{7E321F89-677C-4DAD-849E-622E7B99EF90}" Name="AreaBox10" Parent="{6CCE2EE3-AAF6-462F-BEE5-4DD8ED15644B}" Pos="-4,-4,-5" ColorRGB="16711680" MatLayersMask="0" AreaId="-1" FadeInZone="40" Width="194" Length="600" Height="18" GroupId="0" Priority="0" ObstructRoof="0" ObstructFloor="0" Filled="0" EntityClass="AreaBox" BoxMin="-97,-300,0" BoxMax="97,300,18">
       <Entities>
@@ -3093,7 +3093,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Group" Layer="8.Level_Under" Id="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Name="Walls4" Pos="2036,2151,20.875" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Flags="4" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Name="Walls4" Pos="2036,2151,20.875" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="8.Level_Under" Id="{FF70CE44-1C48-4A71-84BF-2E1471321AFF}" Name="Wall1_1190" Parent="{EB3D82FA-1A05-422A-B967-051A2BBB6BD7}" Pos="792,-820.875,-22.5" Rotate="0.65328151,-0.27059808,0.27059808,0.65328145" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/floor" MatLayersMask="2" RndFlags="0" ViewDistRatio="100" LMQuality="1">
       <Brush>

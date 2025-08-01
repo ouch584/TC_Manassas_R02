@@ -500,7 +500,7 @@
    </Object>
    <Object Type="Decal" Layer="8.Level_Under" Id="{AA4D518B-21CA-43C1-8650-E24FB1134768}" Name="D_4196" Pos="1496.5,2734.625,-3.125" Rotate="0.47771436,0.52133381,-0.47771454,-0.52133375" Scale="32,32,32" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra2" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="65536"/>
    <Object Type="Decal" Layer="8.Level_Under" Id="{2C572D92-E676-4B56-9A8E-B0B71C27D84C}" Name="D_4204" Pos="2464.75,2750,8" Rotate="-0.49999994,-0.5,0.50000006,0.5" Scale="16,16,16" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra4" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="65536"/>
-   <Object Type="Group" Layer="8.Level_Under" Id="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Name="Visual_Perf02" Pos="2067,2134,-2" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
+   <Object Type="Group" Layer="8.Level_Under" Id="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Name="Visual_Perf02" Pos="2067,2134,-102" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Portal" Layer="8.Level_Under" Id="{9A9E285D-F13B-432A-ADA1-85BD40D5B0B1}" Name="Portal587" Parent="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Pos="393,-833,2" ColorRGB="3996260" Height="35" DisplayFilled="0" AmbientColor="0.501961,0.627451,0.376471" AffectedBySun="0" IgnoreSkyColor="1" ViewDistRatio="50" SkyOnly="1" MergeBrushes="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
       <Points>
