@@ -1,7 +1,7 @@
 <ObjectLayer>
- <Layer Name="Clipping" GUID="{68F371DB-3E81-4645-A449-B4B51EF92B12}" Hidden="1" Frozen="1" External="1" Exportable="1">
+ <Layer Name="Clipping" GUID="{68F371DB-3E81-4645-A449-B4B51EF92B12}" Hidden="0" Frozen="0" External="1" Exportable="1">
   <LayerObjects>
-   <Object Type="Solid" Layer="Clipping" Id="{00B94931-D224-4748-9735-2B87032A8DF4}" Name="Solid1" Pos="1993,2165,45.5" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+   <Object Type="Solid" Layer="Clipping" Id="{00B94931-D224-4748-9735-2B87032A8DF4}" Name="Solid1" Pos="1993,2165,45.5" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
     <Brush>
      <Face p1="-27.020445,40.292099,27.215481" p2="-27.020445,-27.707891,27.215481" p3="-27.020445,-27.707891,-28.784512" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
      <Face p1="31.480936,444.23129,27.215408" p2="-42.519062,444.23129,27.215408" p3="-42.519062,444.23129,-28.784538" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -11,7 +11,7 @@
      <Face p1="31.482405,40.291969,-26.790394" p2="-42.517597,40.291981,-26.790394" p3="-42.517593,-27.708008,-26.790394" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
     </Brush>
    </Object>
-   <Object Type="Solid" Layer="Clipping" Id="{3A5F636F-EC26-4137-B9D2-97DBB5DAA917}" Name="Solid5705" Pos="2222.5,1844,13" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+   <Object Type="Solid" Layer="Clipping" Id="{3A5F636F-EC26-4137-B9D2-97DBB5DAA917}" Name="Solid5705" Pos="2222.5,1844,13" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
     <Brush>
      <Face p1="-51.244938,-7.1034756,29.363518" p2="-51.244938,-75.103462,29.363518" p3="-51.244938,-75.103462,-26.636475" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
      <Face p1="44.818974,31.126789,29.363453" p2="-29.181026,31.126789,29.363453" p3="-29.181026,31.126789,-26.636494" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -21,7 +21,7 @@
      <Face p1="44.820202,-7.1034937,-64.589577" p2="-29.179798,-7.1034737,-64.589577" p3="-29.179787,-75.103462,-64.589577" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
     </Brush>
    </Object>
-   <Object Type="Solid" Layer="Clipping" Id="{54BD437D-6E68-4BB0-B808-A063CD4B528C}" Name="Solid5704" Pos="2094.4709,2031.3865,30.940487" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+   <Object Type="Solid" Layer="Clipping" Id="{54BD437D-6E68-4BB0-B808-A063CD4B528C}" Name="Solid5704" Pos="2094.4709,2031.3865,30.940487" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
     <Brush>
      <Face p1="-63.746338,8.7285404,28.860657" p2="-63.746334,-59.271446,28.860657" p3="-63.746334,-59.271446,-27.139336" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
      <Face p1="32.317577,46.958805,28.860592" p2="-41.682426,46.958805,28.860592" p3="-41.682426,46.958805,-27.139355" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -33,7 +33,7 @@
    </Object>
    <Object Type="Group" Layer="Clipping" Id="{1B7E537D-3EC3-494E-81D7-D23665596085}" Name="JumpLimiters02" Pos="2258,2426,93" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
-     <Object Type="Solid" Layer="Clipping" Id="{A19C3578-9460-4F5C-8E57-76C5A7CDFD92}" Name="Solid2456" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-914,422,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{A19C3578-9460-4F5C-8E57-76C5A7CDFD92}" Name="Solid2456" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-914,422,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-375,-101,-14" p2="-375,-104,-14" p3="-375,-104,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-324,316,-14" p2="-327,316,-14" p3="-327,316,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -43,7 +43,7 @@
        <Face p1="-324,-101,-16" p2="-327,-101,-16" p3="-327,-104,-16" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{B3FB4969-2466-43F7-A66D-760B5C55D21A}" Name="Solid2458" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="398,422,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{B3FB4969-2466-43F7-A66D-760B5C55D21A}" Name="Solid2458" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="398,422,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-375,-101,-14" p2="-375,-104,-14" p3="-375,-104,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-420,316,-14" p2="-423,316,-14" p3="-423,316,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -53,7 +53,7 @@
        <Face p1="-420,-101,-16" p2="-423,-101,-16" p3="-423,-104,-16" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{2B404CF4-9BB3-41D6-B68D-3611143CBF33}" Name="Solid2459" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="398,-986,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{2B404CF4-9BB3-41D6-B68D-3611143CBF33}" Name="Solid2459" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="398,-986,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-375,27,-14" p2="-375,24,-14" p3="-375,24,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-420,316,-14" p2="-423,316,-14" p3="-423,316,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -63,7 +63,7 @@
        <Face p1="-420,27,-16" p2="-423,27,-16" p3="-423,24,-16" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{44ECE98D-EF49-40F9-9185-2770DE295CE3}" Name="Solid2460" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-274,422,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{44ECE98D-EF49-40F9-9185-2770DE295CE3}" Name="Solid2460" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-274,422,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-281,-101,-14" p2="-281,-104,-14" p3="-281,-104,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-180,316,-14" p2="-183,316,-14" p3="-183,316,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -73,7 +73,7 @@
        <Face p1="-180,-101,-16" p2="-183,-101,-16" p3="-183,-104,-16" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{FD70B03E-F1EF-4614-922B-E796D11AD9EB}" Name="Solid2463" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="390,-284,-13" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{FD70B03E-F1EF-4614-922B-E796D11AD9EB}" Name="Solid2463" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="390,-284,-13" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-367,-83,1" p2="-367,-86,1" p3="-367,-86,-4" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-14,386,1" p2="-17,386,1" p3="-17,386,-4" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -83,7 +83,7 @@
        <Face p1="-14,-83,-1" p2="-17,-83,-1" p3="-17,-86,-1" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{5EEA8482-6699-48E9-96AF-A210F02086B6}" Name="Solid2455" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-914,-986,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{5EEA8482-6699-48E9-96AF-A210F02086B6}" Name="Solid2455" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-914,-986,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-375,27,-14" p2="-375,24,-14" p3="-375,24,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-324,316,-14" p2="-327,316,-14" p3="-327,316,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -93,7 +93,7 @@
        <Face p1="-324,27,-16" p2="-327,27,-16" p3="-327,24,-16" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{0F6681CE-71CE-4694-BFBA-9174C8597FAB}" Name="Solid2457" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-274,-986,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{0F6681CE-71CE-4694-BFBA-9174C8597FAB}" Name="Solid2457" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-274,-986,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-281,27,-14" p2="-281,24,-14" p3="-281,24,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-180,316,-14" p2="-183,316,-14" p3="-183,316,-19" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -103,7 +103,7 @@
        <Face p1="-180,27,-16" p2="-183,27,-16" p3="-183,24,-16" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{11AFCD30-1218-4236-94D4-BEEE69D85790}" Name="Solid2461" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-274,-282,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{11AFCD30-1218-4236-94D4-BEEE69D85790}" Name="Solid2461" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-274,-282,2" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-281,256,14" p2="-281,-260,14" p3="-281,-260,-2" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="355,384,14" p2="-185,384,14" p3="-185,384,-2" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -113,7 +113,7 @@
        <Face p1="355,-260,-2" p2="355,256,-2" p3="-185,256,-2" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{4020CA06-A8C4-47D3-9164-91B22AAAE8DB}" Name="Solid2462" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-922,-284,-6" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{4020CA06-A8C4-47D3-9164-91B22AAAE8DB}" Name="Solid2462" Parent="{1B7E537D-3EC3-494E-81D7-D23665596085}" Pos="-922,-284,-6" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-367,-83,-6" p2="-367,-86,-6" p3="-367,-86,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="322,386,-6" p2="319,386,-6" p3="319,386,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -125,7 +125,7 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Solid" Layer="Clipping" Id="{C8FEE6A9-6EE2-43A6-AFCC-E75EF130A045}" Name="Solid5702" Pos="1958,2210,54" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+   <Object Type="Solid" Layer="Clipping" Id="{C8FEE6A9-6EE2-43A6-AFCC-E75EF130A045}" Name="Solid5702" Pos="1958,2210,54" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
     <Brush>
      <Face p1="-42.993805,-16.893036,27.102365" p2="-42.993801,-84.893021,27.102365" p3="-42.993801,-84.893021,-28.897627" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
      <Face p1="31.85404,21.336864,27.102293" p2="-42.145962,21.336864,27.102293" p3="-42.145962,21.336864,-28.897654" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -135,7 +135,7 @@
      <Face p1="31.855516,-16.893047,-48.875462" p2="-42.144489,-16.893032,-48.875462" p3="-42.144482,-84.893021,-48.875462" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
     </Brush>
    </Object>
-   <Object Type="Solid" Layer="Clipping" Id="{14126DB5-82AB-4EC3-BAA2-306FDBDF68ED}" Name="Solid5703" Pos="1790,2442,61" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+   <Object Type="Solid" Layer="Clipping" Id="{14126DB5-82AB-4EC3-BAA2-306FDBDF68ED}" Name="Solid5703" Pos="1790,2442,61" Rotate="0.9462322,0.036350574,0.012339358,0.32120249" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
     <Brush>
      <Face p1="-64.789032,-47.217064,35.922012" p2="-64.789017,-115.21706,35.922012" p3="-64.789017,-115.21706,-20.077982" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
      <Face p1="23.904692,61.857845,35.921925" p2="-50.095306,61.857845,35.921925" p3="-50.095314,61.857845,-20.078024" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -147,7 +147,7 @@
    </Object>
    <Object Type="Group" Layer="Clipping" Id="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Name="JumpLimiters" Pos="1992,2142,40" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
-     <Object Type="Solid" Layer="Clipping" Id="{35FDB6DC-DBA3-4B94-8D21-64F23CCA4410}" Name="Solid2470" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="656,0,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{35FDB6DC-DBA3-4B94-8D21-64F23CCA4410}" Name="Solid2470" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="656,0,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-367,-83,-6" p2="-367,-86,-6" p3="-367,-86,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-14,386,-6" p2="-17,386,-6" p3="-17,386,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -157,7 +157,7 @@
        <Face p1="-14,-83,-8" p2="-17,-83,-8" p3="-17,-86,-8" MatId="1" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{B7028F69-EBE5-4A5D-B3B0-B059082FFCD3}" Name="Solid2464" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="656,-704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{B7028F69-EBE5-4A5D-B3B0-B059082FFCD3}" Name="Solid2464" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="656,-704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-367,29,-6" p2="-367,26,-6" p3="-367,26,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-412,318,-6" p2="-415,318,-6" p3="-415,318,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -167,7 +167,7 @@
        <Face p1="-412,29,-8" p2="-415,29,-8" p3="-415,26,-8" MatId="1" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{F08B5746-B48B-4F59-86EA-44A9257796B5}" Name="Solid2468" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="656,704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{F08B5746-B48B-4F59-86EA-44A9257796B5}" Name="Solid2468" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="656,704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-367,-99,-6" p2="-367,-102,-6" p3="-367,-102,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-412,318,-6" p2="-415,318,-6" p3="-415,318,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -177,7 +177,7 @@
        <Face p1="-412,-99,-8" p2="-415,-99,-8" p3="-415,-102,-8" MatId="1" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{E920FC57-C0FB-4F24-B250-F6DB718FFB3E}" Name="Solid2466" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="0,704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{E920FC57-C0FB-4F24-B250-F6DB718FFB3E}" Name="Solid2466" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="0,704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-289,-99,-6" p2="-289,-102,-6" p3="-289,-102,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-188,318,-6" p2="-191,318,-6" p3="-191,318,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -187,7 +187,7 @@
        <Face p1="-188,-99,-8" p2="-191,-99,-8" p3="-191,-102,-8" MatId="1" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{802553E7-E913-4735-A6F5-728AF54A4840}" Name="Solid2471" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="-656,704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{802553E7-E913-4735-A6F5-728AF54A4840}" Name="Solid2471" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="-656,704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-367,-99,-6" p2="-367,-102,-6" p3="-367,-102,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-316,318,-6" p2="-319,318,-6" p3="-319,318,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -197,7 +197,7 @@
        <Face p1="-316,-99,-8" p2="-319,-99,-8" p3="-319,-102,-8" MatId="1" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{732194F6-F5E6-4EE9-97C9-9A09A53CB223}" Name="Solid2465" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="-656,0,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{732194F6-F5E6-4EE9-97C9-9A09A53CB223}" Name="Solid2465" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="-656,0,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-367,-83,-6" p2="-367,-86,-6" p3="-367,-86,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="82,386,-6" p2="79,386,-6" p3="79,386,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -207,7 +207,7 @@
        <Face p1="82,-83,-8" p2="79,-83,-8" p3="79,-86,-8" MatId="1" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{CEC09308-B998-4A82-B321-EBADBDA63476}" Name="Solid2467" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="-656,-704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{CEC09308-B998-4A82-B321-EBADBDA63476}" Name="Solid2467" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="-656,-704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-367,29,-6" p2="-367,26,-6" p3="-367,26,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-316,318,-6" p2="-319,318,-6" p3="-319,318,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
@@ -217,7 +217,7 @@
        <Face p1="-316,29,-8" p2="-319,29,-8" p3="-319,26,-8" MatId="1" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="Clipping" Id="{4DD48DC3-CA8C-40EA-B421-4A18A00BA4BB}" Name="Solid2469" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="0,-704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194560" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="Clipping" Id="{4DD48DC3-CA8C-40EA-B421-4A18A00BA4BB}" Name="Solid2469" Parent="{96787BD3-4704-4733-B03D-6A67A73DF5C3}" Pos="0,-704,0" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-289,29,-6" p2="-289,26,-6" p3="-289,26,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="-188,318,-6" p2="-191,318,-6" p3="-191,318,-11" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>

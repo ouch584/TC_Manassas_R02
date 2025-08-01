@@ -1135,6 +1135,9 @@
      <Style fCoronaDistIntensityFactor="2" fCoronaDistSizeFactor="2" fCoronaScale="2" nLightStyle="0"/>
     </Properties>
    </Object>
+   <Object Type="Entity" Layer="4.Level_Top" Id="{1AC2A37D-2142-4A19-A008-924603394910}" Name="ParticleEffect1651" Pos="1118.25,2107.5,52.001911" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="2" ParticleEffect="smoke_and_fire.console_smoke.electrical" bPrime="1" PulsePeriod="0" Scale="2" soclasses_SmartObjectClass="" SpeedScale="0.25"/>
+   </Object>
    <Object Type="Group" Layer="4.Level_Top" Id="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Name="Walls3" Pos="1948,2130.375,69" ColorRGB="65280" Flags="4" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Solid" Layer="4.Level_Top" Id="{DD6D6BB5-7E4C-4681-A27B-092F94431467}" Name="Wall1_1092" Parent="{8BCF2287-AC64-4641-AD34-1F679A4AF2C3}" Pos="152,-820.375,4" Rotate="0.70710689,0,0,0.70710671" Scale="2,2,2" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
@@ -3406,7 +3409,7 @@
        <Edges />
       </FlowGraph>
      </Object>
-     <Object Type="Entity" Layer="4.Level_Top" Id="{B8899D9A-4087-419E-9400-138E0EDF5A49}" Name="RigidBodyEx16" Parent="{E24C25C4-428F-4BAB-BB4F-7A2F695F70A6}" Pos="60,88,0" ColorRGB="65535" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+     <Object Type="Entity" Layer="4.Level_Top" Id="{B8899D9A-4087-419E-9400-138E0EDF5A49}" Name="RigidBodyEx16" Parent="{E24C25C4-428F-4BAB-BB4F-7A2F695F70A6}" Pos="140,88,0" ColorRGB="65535" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
       <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/architecture/props/all/cubes/cube2.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
        <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="10" Mass="-1" bPhysicalize="1" bPushableByPlayers="0" bResting="0" bRigidBody="0" bRigidBodyActive="1">
         <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
@@ -3448,7 +3451,7 @@
        <Face p1="6.5,8.5,-8" p2="-9.5,8.5,-8" p3="-9.5,-19.5,-8" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="4.Level_Top" Id="{A1BD5764-FF23-4042-9D56-367CFD7F90EF}" Name="Solid5" Parent="{E24C25C4-428F-4BAB-BB4F-7A2F695F70A6}" Pos="60.999634,87.999634,-7" Rotate="-4.3711388e-008,0,0,1" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="4.Level_Top" Id="{A1BD5764-FF23-4042-9D56-367CFD7F90EF}" Name="Solid5" Parent="{E24C25C4-428F-4BAB-BB4F-7A2F695F70A6}" Pos="140.99976,87.999512,-7" Rotate="-4.3711388e-008,0,0,1" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-21.5,8.5,8" p2="-21.5,-19.5,8" p3="-21.5,-19.5,-8" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="6.5,20.5,8" p2="-9.5,20.5,8" p3="-9.5,20.5,-8" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>

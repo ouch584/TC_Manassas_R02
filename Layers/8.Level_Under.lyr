@@ -403,6 +403,9 @@
      </Object>
     </Objects>
    </Object>
+   <Object Type="Entity" Layer="8.Level_Under" Id="{B663C548-8C6E-4FA4-BD1C-2A32B0740619}" Name="ParticleEffect1655" Pos="2862,2085.5,6.7519126" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="misc.sparks.stingy_sparks" bPrime="1" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1"/>
+   </Object>
    <Object Type="Decal" Layer="8.Level_Under" Id="{4D76D751-B14B-432E-AC5E-54E3843A682D}" Name="D_4213" Pos="1496.75,2264,11" Rotate="-0.49999994,-0.5,0.50000006,0.5" Scale="12,12,12" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra3" ProjectionType="1" ViewDistRatio="120" SortPriority="1" RndFlags="0"/>
    <Object Type="Group" Layer="8.Level_Under" Id="{03980662-04FC-43C8-81C1-4644BD2A122D}" Name="TilesRewerb1" Pos="2036,1176,9" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
@@ -492,6 +495,9 @@
    <Object Type="Decal" Layer="8.Level_Under" Id="{30DE576B-78BA-4773-887A-6FFA72B289D0}" Name="D_4195" Pos="974.875,2090.625,-1.875" Rotate="0.52133387,0.47771442,0.52133375,0.47771442" Scale="32,32,32" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra1" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
    <Object Type="Decal" Layer="8.Level_Under" Id="{AA73E66E-5E4D-4DA9-BC63-5C0A40140651}" Name="D_4210" Pos="2543.875,1682,11" Rotate="0.50000012,0.5,0.49999994,0.5" Scale="11.999999,11.999997,11.999996" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra3" ProjectionType="1" ViewDistRatio="120" SortPriority="1" RndFlags="0"/>
    <Object Type="Brush" Layer="8.Level_Under" Id="{9CB3C681-E14E-4D9A-B932-F9DAA0B2FCE4}" Name="hpg_armored_console2" Pos="2861.5,2084.5,4" Rotate="0.70710689,0,0,-0.70710671" ColorRGB="16777215" Material="Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/Props/all/HPGterminal/hpg_armored_console1" MatLayersMask="0" Prefab="Objects\objects_mwll\architecture\props\comstar\tessapony\hpg_armored_console.cgf" OutdoorOnly="0" CastShadowMaps="0" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="0"/>
+   <Object Type="Entity" Layer="8.Level_Under" Id="{49E12088-4151-4DC5-9F20-31FF9604E194}" Name="ParticleEffect1659" Pos="2862,2085.5,6.7519112" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="misc.sparks.stingy_sparks" bPrime="1" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1"/>
+   </Object>
    <Object Type="Decal" Layer="8.Level_Under" Id="{AA4D518B-21CA-43C1-8650-E24FB1134768}" Name="D_4196" Pos="1496.5,2734.625,-3.125" Rotate="0.47771436,0.52133381,-0.47771454,-0.52133375" Scale="32,32,32" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra2" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
    <Object Type="Decal" Layer="8.Level_Under" Id="{2C572D92-E676-4B56-9A8E-B0B71C27D84C}" Name="D_4204" Pos="2464.75,2750,8" Rotate="-0.49999994,-0.5,0.50000006,0.5" Scale="16,16,16" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra4" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="0"/>
    <Object Type="Group" Layer="8.Level_Under" Id="{B34F5192-9A2D-4536-A2DC-26DF4308987F}" Name="Visual_Perf02" Pos="2067,2134,-2" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
@@ -923,6 +929,9 @@
     </Objects>
    </Object>
    <Object Type="Decal" Layer="8.Level_Under" Id="{51D08792-0186-4528-BC28-510BE4235FD2}" Name="D_4197" Pos="1496.875,1640,11" Rotate="-0.49999994,-0.5,0.50000006,0.5" Scale="12,12,12" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra3" ProjectionType="1" ViewDistRatio="120" SortPriority="24" RndFlags="0"/>
+   <Object Type="Entity" Layer="8.Level_Under" Id="{EE672193-E8EE-4E84-82B2-4372E67242B8}" Name="ParticleEffect1652" Pos="2861.5,2085.5,5.0019112" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="2" ParticleEffect="smoke_and_fire.console_smoke.electrical" bPrime="1" PulsePeriod="0" Scale="2" soclasses_SmartObjectClass="" SpeedScale="0.25"/>
+   </Object>
    <Object Type="AreaBox" Layer="8.Level_Under" Id="{20D76794-1848-4395-8CEB-2BE37B232901}" Name="AreaBox5" Pos="1510,3072,-2" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="16711680" MatLayersMask="0" AreaId="-1" FadeInZone="5" Width="200" Length="1120" Height="38" GroupId="0" Priority="15" ObstructRoof="1" ObstructFloor="1" Filled="0" EntityClass="AreaBox" BoxMin="-100,-560,0" BoxMax="100,560,38">
     <Entities>
      <Entity Id="{C9F118F5-CAEE-4553-8DF5-A73CDB8192E2}"/>
@@ -967,6 +976,9 @@
       <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="8" ParticleEffect="misc.ice_smoke_effects.cave" bPrime="1" PulsePeriod="0" Scale="6" soclasses_SmartObjectClass="" SpeedScale="0.5"/>
      </Object>
     </Objects>
+   </Object>
+   <Object Type="Entity" Layer="8.Level_Under" Id="{2719A2AB-887E-4E00-8B35-2FE6B7AD765C}" Name="ParticleEffect1660" Pos="1117.5,2107.5,53.501911" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="misc.sparks.stingy_sparks" bPrime="1" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1"/>
    </Object>
    <Object Type="Group" Layer="8.Level_Under" Id="{669641AC-F179-429E-A172-4642A0F702E9}" Name="Outer" Pos="1447.625,2229.25,20" ColorRGB="65280" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/white_tiles" MergeGeom="0" Opened="0">
     <Objects>
@@ -2004,7 +2016,7 @@
     </Properties>
    </Object>
    <Object Type="Decal" Layer="8.Level_Under" Id="{F11155C8-65F3-4942-AEB9-C436A13C18E3}" Name="D_4209" Pos="1854,1747.625,11" Rotate="0.70710683,0.70710677,-1.3268335e-007,-4.8549989e-008" Scale="11.999998,11.999998,12" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra3" ProjectionType="1" ViewDistRatio="120" SortPriority="1" RndFlags="0"/>
-   <Object Type="Group" Layer="8.Level_Under" Id="{161C68C8-44D5-4987-A0F9-A012B05F20D1}" Name="Tapes1" Pos="2008.5,2157,1" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="1">
+   <Object Type="Group" Layer="8.Level_Under" Id="{161C68C8-44D5-4987-A0F9-A012B05F20D1}" Name="Tapes1" Pos="2008.5,2157,1" Rotate="4.3711388e-008,0,0,1" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
      <Object Type="Brush" Layer="8.Level_Under" Id="{4AD30F3E-7D4F-4907-B6BF-B90FC54D3922}" Name="tape476" Parent="{161C68C8-44D5-4987-A0F9-A012B05F20D1}" Pos="853,-35,3" Scale="2,2,2" ColorRGB="16777215" MatLayersMask="0" Prefab="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/Props/all/Tape/tape.cgf" OutdoorOnly="0" CastShadowMaps="0" SupportSecondVisarea="0" CastRAMmap="1" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="150" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="1056"/>
      <Object Type="Brush" Layer="8.Level_Under" Id="{4B56A6F3-3382-4844-AF02-1F63B166B1A4}" Name="tape477" Parent="{161C68C8-44D5-4987-A0F9-A012B05F20D1}" Pos="781,-35,3" Scale="2,2,2" ColorRGB="16777215" MatLayersMask="0" Prefab="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Architecture/Props/all/Tape/tape.cgf" OutdoorOnly="0" CastShadowMaps="0" SupportSecondVisarea="0" CastRAMmap="1" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="150" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="1056"/>
@@ -2918,7 +2930,7 @@
        <Edges />
       </FlowGraph>
      </Object>
-     <Object Type="Entity" Layer="8.Level_Under" Id="{D07809FE-FFA4-4ECE-B47F-BC13949EABF9}" Name="RigidBodyEx5" Parent="{65B69FF0-3EF8-49B2-8323-B4CCCEEAE42A}" Pos="60,88,0" ColorRGB="65535" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+     <Object Type="Entity" Layer="8.Level_Under" Id="{D07809FE-FFA4-4ECE-B47F-BC13949EABF9}" Name="RigidBodyEx5" Parent="{65B69FF0-3EF8-49B2-8323-B4CCCEEAE42A}" Pos="139.99976,87.999756,0" ColorRGB="65535" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/Architecture/backrooms/wall1" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
       <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/architecture/props/all/cubes/cube2.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
        <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="10" Mass="-1" bPhysicalize="1" bPushableByPlayers="0" bResting="0" bRigidBody="0" bRigidBodyActive="1">
         <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
@@ -2960,7 +2972,7 @@
        <Face p1="6.5,8.5,-8" p2="-9.5,8.5,-8" p3="-9.5,-19.5,-8" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
       </Brush>
      </Object>
-     <Object Type="Solid" Layer="8.Level_Under" Id="{0EBD7866-0225-46B1-AF73-393CEE7612D1}" Name="Solid2" Parent="{65B69FF0-3EF8-49B2-8323-B4CCCEEAE42A}" Pos="60.999634,87.999634,-7" Rotate="-4.3711388e-008,0,0,1" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+     <Object Type="Solid" Layer="8.Level_Under" Id="{0EBD7866-0225-46B1-AF73-393CEE7612D1}" Name="Solid2" Parent="{65B69FF0-3EF8-49B2-8323-B4CCCEEAE42A}" Pos="140.99939,87.99939,-7" Rotate="-4.3711388e-008,0,0,1" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
       <Brush>
        <Face p1="-21.5,8.5,8" p2="-21.5,-19.5,8" p3="-21.5,-19.5,-8" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
        <Face p1="6.5,20.5,8" p2="-9.5,20.5,8" p3="-9.5,20.5,-8" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
