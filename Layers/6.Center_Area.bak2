@@ -1,6 +1,9 @@
 <ObjectLayer>
  <Layer Name="6.Center_Area" GUID="{D65626F3-3B17-472B-86D2-77C0331F3A73}" Hidden="0" Frozen="1" External="1" Exportable="1">
   <LayerObjects>
+   <Object Type="Entity" Layer="6.Center_Area" Id="{1A902915-4C03-4B30-AB40-68DAE3EA8AAD}" Name="ParticleEffect1658" Pos="2207.5,1805.75,32.501911" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="misc.sparks.stingy_sparks" bPrime="1" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1"/>
+   </Object>
    <Object Type="Decal" Layer="6.Center_Area" Id="{48101E18-EC70-47EC-BE07-3A13ACE70110}" Name="D_4260" Pos="1721.6801,1756.5,51" Rotate="-0.061628222,0.061628442,0.70441616,0.70441592" Scale="15.999978,15.999987,15.99999" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra3" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="65536"/>
    <Object Type="AreaBox" Layer="6.Center_Area" Id="{068A891B-777B-485F-ABF9-A7E390CCC60C}" Name="CoreEffectArea" Pos="1986,2144,3" ColorRGB="16711680" FlattenArea="1" MatLayersMask="0" AreaId="1" FadeInZone="12" Width="400" Length="600" Height="90" GroupId="0" Priority="0" ObstructRoof="0" ObstructFloor="0" Filled="0" EntityClass="AreaBox" BoxMin="-200,-300,0" BoxMax="200,300,90">
     <Entities>
@@ -10,6 +13,9 @@
    <Object Type="Decal" Layer="6.Center_Area" Id="{92D2F728-F383-4E61-B327-68BE753E6864}" Name="D_4228" Pos="2027.6614,2005.4303,13.873908" Rotate="0.61237222,0.6644631,-0.24184494,-0.35355347" Scale="15.999996,16,16.000011" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra8" ProjectionType="3" ViewDistRatio="120" SortPriority="20" RndFlags="65536"/>
    <Object Type="Brush" Layer="6.Center_Area" Id="{13F7162D-512E-4ED8-9B94-4657428EEAC1}" Name="K-F Jump DriveInside" Pos="2096,2032,30" Rotate="-0.48296279,-0.29619828,0.81379771,-0.12940957" Scale="0.88700002,0.88700002,0.88700002" ColorRGB="16053332" MatLayersMask="0" Prefab="mods/mwll/game/levels/multiplayer/tc/TC_Manassas_R02/architecture/props/all/kfwarshipjumpdrive/jumpdrive.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="50" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
    <Object Type="Decal" Layer="6.Center_Area" Id="{43C7C230-71E3-4E3B-AD31-4300619A72AA}" Name="D_4227" Pos="1938.2849,2280.8792,42.211609" Rotate="0.32650557,0.27059811,0.65328145,0.62721139" Scale="12,12,12" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra8" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="65536"/>
+   <Object Type="Entity" Layer="6.Center_Area" Id="{2D348339-EBC0-4FF5-B920-243BBC83C2D2}" Name="ParticleEffect1656" Pos="2228.25,1815,58.001911" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="misc.sparks.stingy_sparks" bPrime="1" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1"/>
+   </Object>
    <Object Type="Decal" Layer="6.Center_Area" Id="{2E612467-FB02-4C85-800D-7AB540317341}" Name="D_4261" Pos="2280.5,2506,57" Rotate="0.43045932,0.56098551,-0.43045953,-0.56098545" Scale="15.99999,15.999989,15.999978" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra4" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="65536"/>
    <Object Type="Group" Layer="6.Center_Area" Id="{75D99073-8426-4867-9C1C-204691EFEC0D}" Name="CenterLights" Pos="1984,2144,102" ColorRGB="65280" MergeGeom="0" Opened="0">
     <Objects>
@@ -94,6 +100,9 @@
     </Objects>
    </Object>
    <Object Type="Decal" Layer="6.Center_Area" Id="{7E2ECE88-E4B7-4AF7-B453-DAE42AC24222}" Name="D_4229" Pos="1703.2864,1812.5553,34.623909" Rotate="0.50000006,0.49999994,0.5,0.5" Scale="15.999995,15.999998,16.000011" ColorRGB="16744319" Material="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas_R02/Textures/Decals/grafitti/gra7" ProjectionType="1" ViewDistRatio="120" SortPriority="20" RndFlags="65536"/>
+   <Object Type="Entity" Layer="6.Center_Area" Id="{2CF7C18D-E93A-4C88-987E-C5D71F65835D}" Name="ParticleEffect1657" Pos="2206.5,1814.5,58.001911" Rotate="0.70710683,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="misc.sparks.stingy_sparks" bPrime="1" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1"/>
+   </Object>
    <Object Type="Solid" Layer="6.Center_Area" Id="{1F9900A9-C2F6-47C4-BE56-C8C5C6373804}" Name="Solid5039" Pos="1991,2141,-4" Rotate="4.3711388e-008,0,0,1" ColorRGB="16776960" Material="mods/mwll/game/levels/multiplayer/TC/TC_Manassas_R02/architecture/backrooms/floor2" MatLayersMask="0" RndFlags="0" ViewDistRatio="100" LMQuality="1">
     <Brush>
      <Face p1="-291.5,257.00009,8" p2="-291.5,-258.99991,8" p3="-291.5,-258.99991,-8" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
