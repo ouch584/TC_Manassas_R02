@@ -2,7 +2,6 @@ Big thanks to Ouch, Rick Hunter, Invictus and Insomniac_GamerTV for map testing!
 Big thanks to Xcalibur and Plotting-Racoon for further map testing on R01!
 Big Thanks to Asgard, Sabitsuki, OptimusShr, GuardianDragon
 
-0. Update the minmaps
 1. Update 'sources' with updated flographs and pics where applicable
 2. playtest: are teleports still prone to breakage (why?)
 3. playtest: Make one (two?) more belt(s) around each dropship to contain misses?
